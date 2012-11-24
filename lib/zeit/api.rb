@@ -1,5 +1,3 @@
-require 'faraday'
-
 module Zeit
   class API
 
@@ -12,7 +10,8 @@ module Zeit
 
     def connection
       @connection ||= Faraday.new(url: @base_url) do |faraday|
-        faraday.request  :url_encoded
+        #faraday.request  :url_encoded
+        faraday.use      Zeit::AuthenticationMiddleware, @api_key
         faraday.response :logger
         faraday.adapter  Faraday.default_adapter
       end

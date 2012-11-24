@@ -11,5 +11,9 @@ module Zeit
         @fields = []
       end
     end
+
+    def get
+    end
+
   end
 end
