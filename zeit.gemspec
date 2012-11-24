@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Zeit::VERSION
   gem.authors       = ['Roland Moriz']
   gem.email         = ['roland@moriz.de']
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{API client for Zeit.de API}
+  gem.summary       = %q{API client for Zeit.de API, not working yet}
   gem.homepage      = "http://github.com/rmoriz/zeit"
 
   gem.files         = `git ls-files`.split($/)
