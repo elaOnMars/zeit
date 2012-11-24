@@ -1,7 +1,13 @@
+script: rake test
 rvm:
   - 1.9.2
   - 1.9.3
   - jruby-19mode
   - jruby-head
   - rbx-19mode
-script: rake test
+  - ruby-head
+matrix:
+  allow_failures:
+    - rvm: jruby-head
+    - rvm: rbx-19mode
+    - rvm: ruby-head
