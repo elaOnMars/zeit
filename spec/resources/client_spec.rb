@@ -13,7 +13,7 @@ describe 'Zeit::Resources::Client' do
     subject { Zeit::Resources::Client.new api.connection }
 
     it 'should return information about the api usage of the current account' do
-      subject.client
+      #subject.client
     end
   end
 end
