@@ -12,9 +12,9 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{API client for Zeit.de API, not working yet}
   gem.homepage      = "http://github.com/rmoriz/zeit"
 
-  gem.files         = `git ls-files`.split($/)
+  gem.files         = `git ls-files`.split($/).select { |file| file !~ /^spec\/vcr/ }
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/}).select { |file| file !~ /^spec\/vcr/ }
   gem.require_paths = ['lib']
 
   if RUBY_PLATFORM == 'java'
