@@ -1,0 +1,112 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/author/Helmut-Schmidt
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:27 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '5551'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"matches\": [\n    {\n      \"subtitle\": \"Deswegen d\\u00fcrfen
+        die Deutschen jetzt nicht nur an sich denken. Ein Warnruf\", \n      \"uuid\":
+        \"7z8hazQFfUmkBHChZACBtu\", \n      \"title\": \"\\\"Die Europ\\u00e4ische
+        Union kann scheitern\\\"\", \n      \"href\": \"http://www.zeit.de/2012/40/Westfaelischer-Friedenspreis-Helmut-Schmidt\",
+        \n      \"release_date\": \"2012-09-27T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/7z8hazQFfUmkBHChZACBtu\",
+        \n      \"supertitle\": \"Krisenpolitik\", \n      \"teaser_title\": \"Europa
+        k\\u00f6nnte an Deutschland scheitern\"\n    }, \n    {\n      \"subtitle\":
+        \"Wir wollen unsere nationalen Identit\\u00e4ten bewahren, doch an der europ\\u00e4ischen
+        Integration f\\u00fchrt kein Weg vorbei.\", \n      \"uuid\": \"20CXAQn8FdjBk4fQEtVGSF\",
+        \n      \"title\": \"\\\"Weltmacht wird Europa nicht\\\"\", \n      \"href\":
+        \"http://www.zeit.de/2012/28/Schmidt-Rede-Warburg-Preis\", \n      \"release_date\":
+        \"2012-07-05T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/20CXAQn8FdjBk4fQEtVGSF\",
+        \n      \"supertitle\": \"Helmut Schmidt\", \n      \"teaser_title\": \"Europa
+        wird keine Weltmacht\"\n    }, \n    {\n      \"subtitle\": \"Erinnerungen
+        an den Physiker, Philosophen und Pazifisten Carl Friedrich von Weizs\\u00e4cker,
+        der in diesem Jahr 100 Jahre alt geworden w\\u00e4re.\", \n      \"uuid\":
+        \"4L2hWwMnBJpZqVOwG95EnG\", \n      \"title\": \"Dem gro\\u00dfen Ganzen verpflichtet\",
+        \n      \"href\": \"http://www.zeit.de/2012/27/Carl-Friedrich-von-Weizsaecker\",
+        \n      \"release_date\": \"2012-06-28T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/4L2hWwMnBJpZqVOwG95EnG\",
+        \n      \"supertitle\": \"Carl Friedrich von Weizs\\u00e4cker\", \n      \"teaser_title\":
+        \"Dem gro\\u00dfen Ganzen verpflichtet\"\n    }, \n    {\n      \"subtitle\":
+        \"Die Deutsche Bank ist keine deutsche Bank mehr. Und das ist Merkels Problem.\",
+        \n      \"uuid\": \"29x8H7tNEUvxDSAevUrnY7\", \n      \"title\": \"Das Geldhaus\",
+        \n      \"href\": \"http://www.zeit.de/2011/29/01-Deutsche-Bank\", \n      \"release_date\":
+        \"2011-07-14T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/29x8H7tNEUvxDSAevUrnY7\",
+        \n      \"supertitle\": \"Deutsche Bank\", \n      \"teaser_title\": \"Deutsch
+        nur noch dem Namen nach\"\n    }, \n    {\n      \"subtitle\": \"Dem Land
+        kann geholfen werden: Durch Teilnahme an der Energiewende, mit Infrastrukturprojekten
+        und mit Besch\\u00e4ftigungsgesellschaften f\\u00fcr die Jugend.\", \n      \"uuid\":
+        \"eS4AxpuGWiEGaeALRC14R\", \n      \"title\": \"Griechenland geh\\u00f6rt
+        zu uns\", \n      \"href\": \"http://www.zeit.de/2011/26/Griechenland-Rettung\",
+        \n      \"release_date\": \"2011-06-22T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/eS4AxpuGWiEGaeALRC14R\",
+        \n      \"supertitle\": \"Euro-Krise\", \n      \"teaser_title\": \"Griechenland
+        geh\\u00f6rt zu uns\"\n    }, \n    {\n      \"subtitle\": \"Meine Erinnerung
+        an den gro\\u00dfen deutschen Maler Bernhard Heisig\", \n      \"uuid\": \"4KFubxXcaSa34gR9aHmXlL\",
+        \n      \"title\": \"Besessen bis zum Ende\", \n      \"href\": \"http://www.zeit.de/2011/25/Erinnerung-Bernhard-Heisig\",
+        \n      \"release_date\": \"2011-06-16T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/4KFubxXcaSa34gR9aHmXlL\",
+        \n      \"supertitle\": \"Bernhard Heisig\", \n      \"teaser_title\": \"Er
+        war besessen bis zum Ende\"\n    }, \n    {\n      \"subtitle\": \"Wir haben
+        keine Euro-Krise, sondern eine Krise der Europ\\u00e4ischen Union.\", \n      \"uuid\":
+        \"5uJggwT0uamhJQov1SPE5S\", \n      \"title\": \"... aber die W\\u00e4hrung
+        ist gut\", \n      \"href\": \"http://www.zeit.de/2011/19/Europa-Finanzkrise\",
+        \n      \"release_date\": \"2011-05-05T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/5uJggwT0uamhJQov1SPE5S\",
+        \n      \"supertitle\": \"Europa\", \n      \"teaser_title\": \"Keine Euro-Krise,
+        sondern eine Krise der EU\"\n    }, \n    {\n      \"subtitle\": \"Fast alle
+        Religionen der Welt bekennen sich zum Gewaltverzicht. Doch die entsprechende
+        Moral hat sich nicht durchgesetzt. Ein Appell an religi\\u00f6se und politische
+        F\\u00fchrer\", \n      \"uuid\": \"70IkwkqPDvFQN9htvO8nzn\", \n      \"title\":
+        \"Macht endlich Frieden!\", \n      \"href\": \"http://www.zeit.de/2011/16/GZ-Schmidt\",
+        \n      \"release_date\": \"2011-04-14T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/70IkwkqPDvFQN9htvO8nzn\",
+        \n      \"supertitle\": \"Religionen und Gewalt\", \n      \"teaser_title\":
+        \"V\\u00f6lker, schlie\\u00dft endlich Frieden!\"\n    }, \n    {\n      \"subtitle\":
+        \"Helmut Schmidt zum Tod der ehemaligen ZEIT-Verlegerin Hilde von Lang.\",
+        \n      \"uuid\": \"tThxgsSbg2gYh4Gf5ecPq\", \n      \"title\": \"Ich bin
+        traurig\", \n      \"href\": \"http://www.zeit.de/2011/15/Nachruf-Hilde-von-Lang\",
+        \n      \"release_date\": \"2011-04-07T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/tThxgsSbg2gYh4Gf5ecPq\",
+        \n      \"supertitle\": \"Zum Tod von Hilde von Lang\", \n      \"teaser_title\":
+        \"Eine Liberale im althergebrachten Sinn\"\n    }, \n    {\n      \"subtitle\":
+        \"Vor hundert Jahren wurde in Berlin die Kaiser-Wilhelm-Gesellschaft gegr\\u00fcndet,
+        der Vorl\\u00e4ufer der Max-Planck-Gesellschaft. In seiner Festansprache beschreibt
+        Helmut Schmidt die Rolle der Wissenschaft im 21. Jahrhundert\", \n      \"uuid\":
+        \"4bKVKeknLcIyVxtfjOao28\", \n      \"title\": \"Forschung hei\\u00dft, Verantwortung
+        f\\u00fcr die Zukunft zu tragen\", \n      \"href\": \"http://www.zeit.de/2011/03/100-Jahre-KWG-Rede\",
+        \n      \"release_date\": \"2011-01-13T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/4bKVKeknLcIyVxtfjOao28\",
+        \n      \"supertitle\": \"Wissenschaft und Gesellschaft\", \n      \"teaser_title\":
+        \"Forschung hei\\u00dft, Verantwortung f\\u00fcr die Zukunft zu tragen\"\n
+        \   }\n  ], \n  \"uri\": \"http://api.zeit.de/author/Helmut-Schmidt\", \n
+        \ \"value\": \"Helmut Schmidt\", \n  \"limit\": 10, \n  \"offset\": 0, \n
+        \ \"found\": 165, \n  \"type\": \"author\"\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:27 GMT
+recorded_with: VCR 2.3.0

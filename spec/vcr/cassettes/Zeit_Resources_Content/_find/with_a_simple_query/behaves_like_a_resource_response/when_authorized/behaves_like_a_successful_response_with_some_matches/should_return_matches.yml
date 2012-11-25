@@ -1,0 +1,149 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/content?q=Kim+Schmitz
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:28 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '8647'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"matches\": [\n    {\n      \"subtitle\": \"Der neuseel\\u00e4ndische
+        Geheimdienst hat dabei geholfen, Megaupload-Gr\\u00fcnder Kim Schmitz zu finden.
+        Legal war das nicht, der Premier k\\u00fcndigte eine Untersuchung an.\", \n
+        \     \"uuid\": \"6sSrNHdDZhrVn1rF8T2O3J\", \n      \"title\": \"Neuseelands
+        Geheimdienst spionierte Kim Dotcom aus\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-09/schmitz-dotcom-untersuchung\",
+        \n      \"release_date\": \"2012-09-24T08:30:49.657Z\", \n      \"uri\": \"http://api.zeit.de/content/6sSrNHdDZhrVn1rF8T2O3J\",
+        \n      \"snippet\": \"Neuseelands Premier John Key ist \\\"ziemlich geschockt\\\"
+        dar\\u00fcber, wie der neuseel\\u00e4ndische Geheimdienst bei der Ermittlung
+        gegen <em>Kim</em> <em>Schmitz</em>, den Gr\\u00fcnder von Megaupload, die
+        Polizei unterst\\u00fctzt hat. Die\", \n      \"supertitle\": \"Megaupload\",
+        \n      \"teaser_title\": \"Neuseelands Geheimdienst spionierte Kim Dotcom
+        aus\"\n    }, \n    {\n      \"subtitle\": \"Neuseel\\u00e4ndische Gerichte
+        nehmen den Fall Megaupload auseinander. Der Durchsuchungsbeschluss hatte Formfehler.
+        Kim Schmitz sammelt derweil Unterst\\u00fctzer.\", \n      \"uuid\": \"7mMVCq9xQB1pro5f9DtRZC\",
+        \n      \"title\": \"Durchsuchung bei Kim Schmitz war illegal\", \n      \"href\":
+        \"http://www.zeit.de/digital/internet/2012-06/kim-schmitz-durchsuchung-illegal\",
+        \n      \"release_date\": \"2012-06-28T15:45:17.239Z\", \n      \"uri\": \"http://api.zeit.de/content/7mMVCq9xQB1pro5f9DtRZC\",
+        \n      \"snippet\": \"Das Verfahren gegen den Gr\\u00fcnder von Megaupload,
+        <em>Kim</em> <em>Schmitz</em>, ist wohl nicht so wasserdicht, wie es das FBI
+        gern h\\u00e4tte. Nicht nur, dass seinem Unternehmen nie eine Strafanzeige
+        zugestellt wurde, wie\", \n      \"supertitle\": \"Megaupload\", \n      \"teaser_title\":
+        \"Durchsuchung bei Kim Schmitz war illegal\"\n    }, \n    {\n      \"subtitle\":
+        \"Es sollte ein schwerer Schlag gegen illegales Filesharing werden, doch nun
+        br\\u00f6ckelt die Anklage gegen Kim Schmitz und seinen Speicherdienst Megaupload.
+        Was ist passiert?\", \n      \"uuid\": \"6SoXnPP0s1NQpowqVXYpV2\", \n      \"title\":
+        \"Megaupload geht in die Offensive\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-06/megaupload-verfahren-schmitz\",
+        \n      \"release_date\": \"2012-06-01T15:15:16.14Z\", \n      \"uri\": \"http://api.zeit.de/content/6SoXnPP0s1NQpowqVXYpV2\",
+        \n      \"snippet\": \"Zun\\u00e4chst sah es nach einem klaren Fall aus. Einem
+        Fall von Gut gegen B\\u00f6se. Auf der einen Seite die flei\\u00dfigen Fahnder
+        des FBI, auf der anderen Seite <em>Kim</em> <em>Schmitz</em>, der Ex-Hacker,
+        Ex-Hochstapler und\", \n      \"supertitle\": \"Kim Schmitz\", \n      \"teaser_title\":
+        \"Megaupload geht in die Offensive\"\n    }, \n    {\n      \"subtitle\":
+        \"Dropbox ist einer der popul\\u00e4rsten Speicherdienste im Internet und
+        hat jetzt eine Funktion eingef\\u00fchrt, die es einem anderen Dienst \\u00e4hnlicher
+        werden l\\u00e4sst: Megaupload.\", \n      \"uuid\": \"6fxMJSjQOaHtdf05bwIvFX\",
+        \n      \"title\": \"Dropbox wird zum Filesharing-Portal\", \n      \"href\":
+        \"http://www.zeit.de/digital/internet/2012-05/dropbox-filesharing\", \n      \"release_date\":
+        \"2012-05-07T10:10:13.911Z\", \n      \"uri\": \"http://api.zeit.de/content/6fxMJSjQOaHtdf05bwIvFX\",
+        \n      \"snippet\": \" anschlie\\u00dfend auch herunterladen.\\nDie Neuerung
+        bei Dropbox kommt \\u00fcberraschend, denn einige Online-Speicherdienste hatten
+        nach der Verhaftung des Megaupload-Gr\\u00fcnders <em>Kim</em> <em>Schmitz</em>
+        ihre Teilen-Funktion komplett\", \n      \"supertitle\": \"Urheberrecht\",
+        \n      \"teaser_title\": \"Dropbox wird zum Filesharing-Portal\"\n    },
+        \n    {\n      \"subtitle\": \"Das Ph\\u00e4nomen \\\"Looking at things\\\"
+        spiegelt zwei Seiten der bildhungrigen Gesellschaft. Politiker und Kurzzeithelden
+        werden satirisch geklont, w\\u00e4hrend sie Dinge ansehen.\", \n      \"uuid\":
+        \"3Rq2GohmG9sWhyCMpz4Nmb\", \n      \"title\": \"Wie der Diktator zum DJ wurde\",
+        \n      \"href\": \"http://www.zeit.de/kultur/2012-03/looking-at-things\",
+        \n      \"release_date\": \"2012-03-12T12:01:58.224Z\", \n      \"uri\": \"http://api.zeit.de/content/3Rq2GohmG9sWhyCMpz4Nmb\",
+        \n      \"snippet\": \" zu Guttenberg oder dem Megaupload-Gr\\u00fcnder <em>Kim</em>
+        <em>Schmitz</em> aka <em>Kim</em> Dotcom. Und eben Christian Wulff. Die Faszination
+        der Looking at things-Alben speist sich aus der \\u00c4sthetik der \\u00c4hnlichkeit.
+        Die Kopie wird\", \n      \"supertitle\": \"Looking at things\", \n      \"teaser_title\":
+        \"Wie der Diktator zum DJ wurde\"\n    }, \n    {\n      \"subtitle\": \"Wer
+        Musik und Filme illegal herunterl\\u00e4dt, schadet der Unterhaltungsindustrie.
+        Doch wie gro\\u00df die Einbu\\u00dfen wirklich sind, ist h\\u00f6chst umstritten.\",
+        \n      \"uuid\": \"3J8IoPDRjlzs8nylOUeiE3\", \n      \"title\": \"Klicken
+        statt kaufen\", \n      \"href\": \"http://www.zeit.de/wirtschaft/2012-02/musik-download-industrie\",
+        \n      \"release_date\": \"2012-02-24T14:39:15.078Z\", \n      \"uri\": \"http://api.zeit.de/content/3J8IoPDRjlzs8nylOUeiE3\",
+        \n      \"snippet\": \"Er ist wieder auf freiem Fu\\u00df: Gegen Kaution und
+        strenge Auflagen durfte <em>Kim</em> <em>Schmitz</em>, alias <em>Kim</em>
+        Dotcom, am Mittwoch in Auckland das Gef\\u00e4ngnis nach einem Monat Haft
+        wieder verlassen. Der Vorwurf gegen\", \n      \"supertitle\": \"Urheberrechtsverletzungen\",
+        \n      \"teaser_title\": \"Klicken statt kaufen\"\n    }, \n    {\n      \"subtitle\":
+        \"Der Internet-Unternehmer Kim Schmitz ist gegen Kaution aus der Haft in Neuseeland
+        entlassen worden. Die US-Beh\\u00f6rden fordern seine Auslieferung.\", \n
+        \     \"uuid\": \"3GbcIDjwbcH4DZKMZj0Ndd\", \n      \"title\": \"Megaupload-Gr\\u00fcnder
+        Schmitz auf freiem Fu\\u00df\", \n      \"href\": \"http://www.zeit.de/digital/2012-02/schmitz-megaupload-freilassung\",
+        \n      \"release_date\": \"2012-02-22T06:48:29.448Z\", \n      \"uri\": \"http://api.zeit.de/content/3GbcIDjwbcH4DZKMZj0Ndd\",
+        \n      \"snippet\": \"Ein Richter im neuseel\\u00e4ndischen Auckland hat
+        den Gr\\u00fcnder der Internet-Plattform Megaupload, <em>Kim</em> <em>Schmitz</em>,
+        gegen Kaution auf freien Fu\\u00df gesetzt. Es bestehe keine Fluchtgefahr
+        f\\u00fcr den aus Deutschland\", \n      \"supertitle\": \"Filehoster\", \n
+        \     \"teaser_title\": \"Megaupload-Gr\\u00fcnder Schmitz auf freiem Fu\\u00df\"\n
+        \   }, \n    {\n      \"subtitle\": \"Herthas Spieler verlieren ihren Coach
+        und f\\u00fcrchten sich vor ihren Fans. Gladbach zaubert sich zum Titelanw\\u00e4rter.
+        Und Hoffenheim entt\\u00e4uscht. Die Bundesliga-R\\u00fcckschau\", \n      \"uuid\":
+        \"6s5IELtTJRzt4TYUVpXZ2k\", \n      \"title\": \"Das schnelle Ende des Problemb\\u00e4ren
+        Skibbe\", \n      \"href\": \"http://www.zeit.de/sport/2012-02/hertha-skibbe-hoffenheim-bundesliga-rueckschau\",
+        \n      \"release_date\": \"2012-02-13T09:45:28.61Z\", \n      \"uri\": \"http://api.zeit.de/content/6s5IELtTJRzt4TYUVpXZ2k\",
+        \n      \"snippet\": \" verletzte <em>Kim</em> Kulig schaute am Samstagabend
+        im Sportstudio vorbei, griff in die Glasschale und loste f\\u00fcr das DFB-Halbfinale
+        der M\\u00e4nner Greuter F\\u00fcrth dem BVB und M\\u00f6nchengladbach dem
+        FC Bayern zu.\\nWas war sonst\", \n      \"supertitle\": \"Bundesliga-R\\u00fcckschau\",
+        \n      \"teaser_title\": \"Das schnelle Ende des Problemb\\u00e4ren Skibbe\"\n
+        \   }, \n    {\n      \"subtitle\": \"Im Streit um die gesperrte Internetplattform
+        Megaupload hofft das US-Unternehmen auf eine rasche Einigung mit der Justiz.
+        Die Daten m\\u00fcssen zun\\u00e4chst nicht gel\\u00f6scht werden.\", \n      \"uuid\":
+        \"szWatMBJhE3Aa22nIM0ry\", \n      \"title\": \"Daten von Megaupload bleiben
+        vorerst erhalten\", \n      \"href\": \"http://www.zeit.de/gesellschaft/2012-01/internet.megaupload-daten\",
+        \n      \"release_date\": \"2012-01-31T14:34:59.2Z\", \n      \"uri\": \"http://api.zeit.de/content/szWatMBJhE3Aa22nIM0ry\",
+        \n      \"snippet\": \"-Studios und Plattenfirmen ein Schaden von mehr als
+        einer halben Milliarde Dollar entstanden sein. <em>Schmitz</em> nennt sich
+        selbst inzwischen <em>Kim</em> Dotcom.\", \n      \"supertitle\": \"Sperrung\",
+        \n      \"teaser_title\": \"Daten von Megaupload bleiben vorerst erhalten\"\n
+        \   }, \n    {\n      \"subtitle\": \"Hacker oder Scharlatan? Die Ermittlungen
+        gegen den deutschen Internetunternehmer Kim Schmitz werden schwierig, denn
+        er legte falsche F\\u00e4hrten.\", \n      \"uuid\": \"2Bv3I8drnhQbAKQDIQJRmu\",
+        \n      \"title\": \"Das Phantom\", \n      \"href\": \"http://www.zeit.de/2012/05/Filehoster-Megaupload\",
+        \n      \"release_date\": \"2012-01-26T06:00:00Z\", \n      \"uri\": \"http://api.zeit.de/content/2Bv3I8drnhQbAKQDIQJRmu\",
+        \n      \"snippet\": \"<em>Kim</em> <em>Schmitz</em> verdiente Millionen Euro
+        im Internet, lebte auf gro\\u00dfem Fu\\u00df und mit noch gr\\u00f6\\u00dferem
+        Mundwerk. Doch irgendwann sch\\u00f6pften amerikanische Ermittlungsbeh\\u00f6rden
+        Verdacht. Sie lasen seine E-Mails\", \n      \"supertitle\": \"Filehoster\",
+        \n      \"teaser_title\": \"Kim Schmitz bleibt schwer zu fassen\"\n    }\n
+        \ ], \n  \"found\": 16, \n  \"limit\": 10, \n  \"offset\": 0\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:28 GMT
+recorded_with: VCR 2.3.0

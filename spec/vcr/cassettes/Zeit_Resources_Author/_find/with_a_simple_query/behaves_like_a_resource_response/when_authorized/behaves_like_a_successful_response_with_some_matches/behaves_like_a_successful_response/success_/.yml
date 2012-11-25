@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/author
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:20 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '1374'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"matches\": [\n    {\n      \"type\": \"author\", \n      \"uri\":
+        \"http://api.zeit.de/author/Urban-Roedl\", \n      \"value\": \"Urban Roedl\"\n
+        \   }, \n    {\n      \"type\": \"author\", \n      \"uri\": \"http://api.zeit.de/author/Birckholtz,-Staatsrat\",
+        \n      \"value\": \"Birckholtz, Staatsrat\"\n    }, \n    {\n      \"type\":
+        \"author\", \n      \"uri\": \"http://api.zeit.de/author/Ulrich-Bathke\",
+        \n      \"value\": \"Ulrich Bathke\"\n    }, \n    {\n      \"type\": \"author\",
+        \n      \"uri\": \"http://api.zeit.de/author/Manuel-Geiss\", \n      \"value\":
+        \"Manuel Geiss\"\n    }, \n    {\n      \"type\": \"author\", \n      \"uri\":
+        \"http://api.zeit.de/author/Hse-Langner\", \n      \"value\": \"Hse Langner\"\n
+        \   }, \n    {\n      \"type\": \"author\", \n      \"uri\": \"http://api.zeit.de/author/Eleonore-Sterling\",
+        \n      \"value\": \"Eleonore Sterling\"\n    }, \n    {\n      \"type\":
+        \"author\", \n      \"uri\": \"http://api.zeit.de/author/Peter-Squenz\", \n
+        \     \"value\": \"Peter Squenz\"\n    }, \n    {\n      \"type\": \"author\",
+        \n      \"uri\": \"http://api.zeit.de/author/Clemens-M\\u00f6rmann\", \n      \"value\":
+        \"Clemens M\\u00f6rmann\"\n    }, \n    {\n      \"type\": \"author\", \n
+        \     \"uri\": \"http://api.zeit.de/author/Walter-Boeblicli\", \n      \"value\":
+        \"Walter Boeblicli\"\n    }, \n    {\n      \"type\": \"author\", \n      \"uri\":
+        \"http://api.zeit.de/author/Walter-Boehlkh\", \n      \"value\": \"Walter
+        Boehlkh\"\n    }\n  ], \n  \"found\": 5290, \n  \"limit\": 10, \n  \"offset\":
+        0\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:26 GMT
+recorded_with: VCR 2.3.0

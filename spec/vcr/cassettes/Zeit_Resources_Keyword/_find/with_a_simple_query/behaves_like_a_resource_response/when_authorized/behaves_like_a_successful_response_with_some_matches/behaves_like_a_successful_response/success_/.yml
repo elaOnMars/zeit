@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/keyword?q=%2Arom%2A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:31 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '2395'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"matches\": [\n    {\n      \"score\": 3, \n      \"lexical\":
+        \"Abramowitsch, Roman\", \n      \"uri\": \"http://api.zeit.de/keyword/roman-abramowitsch\",
+        \n      \"value\": \"Roman Abramowitsch\", \n      \"href\": \"http://www.zeit.de/schlagworte/personen/roman-abramowitsch/index\",
+        \n      \"type\": \"person\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/schlagworte/themen/andromeda-galaxie/index\",
+        \n      \"type\": \"subject\", \n      \"uri\": \"http://api.zeit.de/keyword/andromeda-galaxie\",
+        \n      \"value\": \"Andromeda-Galaxie\"\n    }, \n    {\n      \"href\":
+        \"http://www.zeit.de/schlagworte/themen/burnout-syndrom/index\", \n      \"score\":
+        3, \n      \"type\": \"subject\", \n      \"uri\": \"http://api.zeit.de/keyword/burnout-syndrom\",
+        \n      \"value\": \"Burnout-Syndrom\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/schlagworte/themen/chrome/index\",
+        \n      \"score\": 4, \n      \"type\": \"subject\", \n      \"uri\": \"http://api.zeit.de/keyword/chrome\",
+        \n      \"value\": \"Chrome\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/schlagworte/themen/chromosom/index\",
+        \n      \"score\": 11, \n      \"type\": \"subject\", \n      \"uri\": \"http://api.zeit.de/keyword/chromosom\",
+        \n      \"value\": \"Chromosom\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/schlagworte/organisationen/club-of-rome/index\",
+        \n      \"score\": 9, \n      \"type\": \"organization\", \n      \"uri\":
+        \"http://api.zeit.de/keyword/club-of-rome\", \n      \"value\": \"Club of
+        Rome\"\n    }, \n    {\n      \"score\": 3, \n      \"lexical\": \"Cromme,
+        Gerhard\", \n      \"uri\": \"http://api.zeit.de/keyword/gerhard-cromme\",
+        \n      \"value\": \"Gerhard Cromme\", \n      \"href\": \"http://www.zeit.de/schlagworte/personen/gerhard-cromme/index\",
+        \n      \"type\": \"person\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/schlagworte/themen/down-syndrom/index\",
+        \n      \"score\": 1, \n      \"type\": \"subject\", \n      \"uri\": \"http://api.zeit.de/keyword/down-syndrom\",
+        \n      \"value\": \"Down-Syndrom\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/schlagworte/themen/elektromobilitaet/index\",
+        \n      \"score\": 13, \n      \"type\": \"subject\", \n      \"uri\": \"http://api.zeit.de/keyword/elektromobilitaet\",
+        \n      \"value\": \"Elektromobilit\\u00e4t\"\n    }, \n    {\n      \"href\":
+        \"http://www.zeit.de/schlagworte/themen/elektromotor/index\", \n      \"score\":
+        13, \n      \"type\": \"subject\", \n      \"uri\": \"http://api.zeit.de/keyword/elektromotor\",
+        \n      \"value\": \"Elektromotor\"\n    }\n  ], \n  \"found\": 47, \n  \"limit\":
+        10, \n  \"offset\": 0\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:31 GMT
+recorded_with: VCR 2.3.0

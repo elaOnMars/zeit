@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    zeit (0.0.1pre)
+    zeit (0.0.1pre2)
       faraday
 
 GEM

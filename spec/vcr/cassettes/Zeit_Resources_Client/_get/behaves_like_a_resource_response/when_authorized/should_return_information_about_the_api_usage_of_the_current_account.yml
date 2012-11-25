@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/client
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:28 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '188'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"reset\": 1353785293, \n  \"name\": \"xx\", \n  \"quota\":
+        10000, \n  \"tier\": \"free\", \n  \"requests\": 163, \n  \"api_key\": \"working\",
+        \n  \"email\": \"xx\"\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:28 GMT
+recorded_with: VCR 2.3.0

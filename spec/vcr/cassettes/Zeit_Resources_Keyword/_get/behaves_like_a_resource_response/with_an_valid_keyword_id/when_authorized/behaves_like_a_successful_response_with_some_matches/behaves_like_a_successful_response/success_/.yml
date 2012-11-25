@@ -1,0 +1,156 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/keyword/internet
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:32 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '9129'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"matches\": [\n    {\n      \"subtitle\": \"Durch eine Klage
+        hat der Verlag erwirkt, dass die IP-Adresse des Rechners herausgegeben wird,
+        von dem das Buch hochgeladen wurde. Nun sind wieder die Ermittler am Zug.\",
+        \n      \"uuid\": \"7l3EGK5E7iyuCclSJjcsBv\", \n      \"title\": \"Rowling
+        erk\\u00e4mpft Teilerfolg gegen Onlineverbreitung ihres Romans\", \n      \"href\":
+        \"http://www.zeit.de/kultur/2012-10/rowling-roman-klage\", \n      \"release_date\":
+        \"2012-10-26T12:08:16.971Z\", \n      \"uri\": \"http://api.zeit.de/content/7l3EGK5E7iyuCclSJjcsBv\",
+        \n      \"snippet\": \"Der Verlag von Harry-Potter-Autorin Joanne K. Rowling
+        wehrt sich gerichtlich gegen die Verbreitung ihres neuen Romans Ein pl\\u00f6tzlicher
+        Todesfall im <em>Internet</em>. Eine Sprecherin des Landgerichts M\\u00fcnchen\",
+        \n      \"supertitle\": \"\\\"Ein pl\\u00f6tzlicher Todesfall\\\"\", \n      \"teaser_title\":
+        \"Rowling erk\\u00e4mpft Teilerfolg gegen Onlineverbreitung ihres Romans\"\n
+        \   }, \n    {\n      \"subtitle\": \"2,7 Milliarden Dollar soll das Familienverm\\u00f6gen
+        von Ministerpr\\u00e4sident Wen Jiabao umfassen, hat die \\\"New York Times\\\"
+        recherchiert. China reagierte mit einer Blockade.\", \n      \"uuid\": \"70YButsVjuRq10jALqKU3O\",
+        \n      \"title\": \"China sperrt Bericht \\u00fcber Wens Reichtum\", \n      \"href\":
+        \"http://www.zeit.de/politik/ausland/2012-10/china-wen-jiabao-reichtum-new-york-times\",
+        \n      \"release_date\": \"2012-10-26T08:07:43.244Z\", \n      \"uri\": \"http://api.zeit.de/content/70YButsVjuRq10jALqKU3O\",
+        \n      \"snippet\": \" York Times im <em>Internet</em>. Die Zeitung hatte
+        den Bericht auch auf chinesisch ver\\u00f6ffentlicht.\\nBesitz in Familie
+        gestreut\\nDer Regierungschef selbst verf\\u00fcgt dem Zeitungsbericht nach
+        selbst zwar \\u00fcber keine\", \n      \"supertitle\": \"New York Times\",
+        \n      \"teaser_title\": \"China sperrt Bericht \\u00fcber Wens Reichtum\"\n
+        \   }, \n    {\n      \"subtitle\": \"Amanda Todd brachte sich um, weil sie
+        im Internet und in der Schule gemobbt wurde. Anonymous wollte helfen, den
+        T\\u00e4ter zu finden, machte aber alles nur schlimmer.\", \n      \"uuid\":
+        \"1SzlvaJHw13LjjVfHM1Bif\", \n      \"title\": \"Cybermobbing l\\u00e4sst
+        sich nicht allein im Netz bek\\u00e4mpfen\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-10/amanda-todd-anonymous\",
+        \n      \"release_date\": \"2012-10-25T15:36:47.611Z\", \n      \"uri\": \"http://api.zeit.de/content/1SzlvaJHw13LjjVfHM1Bif\",
+        \n      \"snippet\": \" macht.\\nDas hielt Leute, die im Namen von Anonymous
+        agieren, nicht davon ab, weitere Personen zu \\\"doxen\\\", wie sie das Enttarnen
+        nennen. Aber Cybermobbing und Erpressung im <em>Internet</em> lassen sich
+        nicht durch\", \n      \"supertitle\": \"Mobbing\", \n      \"teaser_title\":
+        \"Cybermobbing l\\u00e4sst sich nicht allein im Netz bek\\u00e4mpfen\"\n    },
+        \n    {\n      \"subtitle\": \"Entgegen seiner Zusagen bot Microsoft zeitweise
+        keine freie Browserwahl im Betriebssystem an. Das kommt den Konzern nun teuer
+        zu stehen: Es droht Milliardenstrafe der EU.\", \n      \"uuid\": \"4saaA2aEJd4VCckvBCHdOT\",
+        \n      \"title\": \"Microsoft droht Milliardenbu\\u00dfe wegen Browser-Politik\",
+        \n      \"href\": \"http://www.zeit.de/digital/internet/2012-10/microsoft-eu-internet-explorer\",
+        \n      \"release_date\": \"2012-10-24T12:59:42.784Z\", \n      \"uri\": \"http://api.zeit.de/content/4saaA2aEJd4VCckvBCHdOT\",
+        \n      \"snippet\": \" von 2009. Microsoft habe versprochen, bis 2014 seinen
+        Windows-Nutzern neben dem hauseigenen <em>Internet</em> Explorer eine Auswahl
+        verschiedener Browser von Konkurrenten anzubieten.\\nMicrosoft hielt sich
+        nicht\", \n      \"supertitle\": \"Internet\", \n      \"teaser_title\": \"Microsoft
+        droht Milliardenbu\\u00dfe wegen Browser-Politik\"\n    }, \n    {\n      \"subtitle\":
+        \"Die Regierung \\u00fcberarbeitet das Telekommunikationsgesetz, wie vom Verfassungsgericht
+        gefordert. Weniger Daten werden aber nicht an die Polizei gegeben, eher mehr.\",
+        \n      \"uuid\": \"7lyigBgqNR3Emt9WT83z65\", \n      \"title\": \"Regierung
+        will Abfrage von Cloud-Passw\\u00f6rtern erlauben\", \n      \"href\": \"http://www.zeit.de/digital/datenschutz/2012-10/telekommunikation-datenschutz-gesetz-aenderungen\",
+        \n      \"release_date\": \"2012-10-24T11:13:44.927Z\", \n      \"uri\": \"http://api.zeit.de/content/7lyigBgqNR3Emt9WT83z65\",
+        \n      \"snippet\": \"Die Bundesregierung hat Nachbesserungen beim Zugriff
+        auf sogenannte Bestandsdaten f\\u00fcr <em>Internet</em> und Mobiltelefone
+        beschlossen. Das Kabinett von Kanzlerin Angela Merkel (CDU) hat sich nach\",
+        \n      \"supertitle\": \"\\u00dcberwachung\", \n      \"teaser_title\": \"Regierung
+        will Abfrage von Cloud-Passw\\u00f6rtern erlauben\"\n    }, \n    {\n      \"subtitle\":
+        \"Gemeinsam gegen Putin: Russische Oppositionsgruppen haben sich zusammengeschlossen.
+        Blogger Nawalny und Ex-Schachweltmeister Kasparow geh\\u00f6ren dem neuen
+        B\\u00fcndnis an.\", \n      \"uuid\": \"3POXurvWRDaIl7rXqZR1ci\", \n      \"title\":
+        \"Russische Opposition w\\u00e4hlt Koordinierungsrat\", \n      \"href\":
+        \"http://www.zeit.de/politik/ausland/2012-10/russland-opposition-buendnis-wahl\",
+        \n      \"release_date\": \"2012-10-23T15:03:21.485Z\", \n      \"uri\": \"http://api.zeit.de/content/3POXurvWRDaIl7rXqZR1ci\",
+        \n      \"snippet\": \"Ein Teil der russischen Opposition hat sich in einem
+        gemeinsamen Koordinierungskomitee zusammengeschlossen und Mitglieder des Gremiums
+        gew\\u00e4hlt. Bei einer dreit\\u00e4gigen Abstimmung im <em>Internet</em>
+        wurde der\", \n      \"supertitle\": \"Putin-Gegner\", \n      \"teaser_title\":
+        \"Russische Opposition w\\u00e4hlt Koordinierungsrat\"\n    }, \n    {\n      \"subtitle\":
+        \"Der Krieg gegen illegale Kopien ist sinnlos und gef\\u00e4hrlich, sagt Lawrence
+        Lessig. Er fordert einen Friedensvertrag und ein neues Urheberrecht f\\u00fcr
+        die digitale \\u00c4ra.\", \n      \"uuid\": \"4T0OmU0cp9XqGw7xEPnAre\", \n
+        \     \"title\": \"Harvard-Professor Lessig fordert Urheberrecht f\\u00fcrs
+        Netz\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-10/lawrence-lessig-raubkopie\",
+        \n      \"release_date\": \"2012-10-22T16:23:31.786Z\", \n      \"uri\": \"http://api.zeit.de/content/4T0OmU0cp9XqGw7xEPnAre\",
+        \n      \"snippet\": \"Das Urheberrecht m\\u00fcsse endlich die Tatsache anerkennen,
+        dass es das <em>Internet</em> gibt, fordert Lawrence Lessig. Seit Jahren k\\u00e4mpft
+        der Harvard-Professor f\\u00fcr neue Urheberrechtsmodelle und nutzt als Beleg\",
+        \n      \"supertitle\": \"Illegale Kopien\", \n      \"teaser_title\": \"Harvard-Professor
+        Lessig fordert Urheberrecht f\\u00fcrs Netz\"\n    }, \n    {\n      \"subtitle\":
+        \"Die FDP-Politikerin Silvana Koch-Mehrin wird 2014 nicht wieder f\\u00fcr
+        das Europaparlament kandidieren. Ihr war wegen Plagiatsvorw\\u00fcrfen ihr
+        Doktorgrad aberkannt worden.\", \n      \"uuid\": \"22gs5nGr0tts6nhwGD7aA6\",
+        \n      \"title\": \"Koch-Mehrin beendet Politkarriere\", \n      \"href\":
+        \"http://www.zeit.de/politik/deutschland/2012-10/koch-mehrin-europaparlament\",
+        \n      \"release_date\": \"2012-10-20T17:18:41.533Z\", \n      \"uri\": \"http://api.zeit.de/content/22gs5nGr0tts6nhwGD7aA6\",
+        \n      \"snippet\": \". Die Politikerin reichte Klage dagegen ein. Plagiatsvorw\\u00fcrfe
+        waren zun\\u00e4chst im <em>Internet</em> ver\\u00f6ffentlicht worden. \\\"Es
+        st\\u00f6rt mich, dass im Schutz der Anonymit\\u00e4t Beschuldigungen erhoben
+        und Urteile gef\\u00e4llt\", \n      \"supertitle\": \"Europawahl 2014\",
+        \n      \"teaser_title\": \"Koch-Mehrin beendet Politkarriere\"\n    }, \n
+        \   {\n      \"subtitle\": \"Ein anonymer Reddit-Moderator, der Pornos und
+        Gewalt gepostet hatte, flog auf und verlor seinen Job. Nun wird \\u00fcber
+        Meinungsfreiheit debattiert. Dabei geht es darum nicht.\", \n      \"uuid\":
+        \"6JenTe4IDFgfZ0vXZ5obKv\", \n      \"title\": \"Von der Enttarnung eines
+        Reddit-Trolls\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-10/reddit-brutsch-meinungsfreiheit\",
+        \n      \"release_date\": \"2012-10-19T18:01:17.935Z\", \n      \"uri\": \"http://api.zeit.de/content/6JenTe4IDFgfZ0vXZ5obKv\",
+        \n      \"snippet\": \" Homepage.\\nDie dunklen Seiten des Netzes\\nEs gibt
+        solche Foren, seit es das <em>Internet</em> gibt, denn es gibt solche Menschen.
+        Seit 1996 beispielsweise zeigt rotten.com \\\"pure evil\\\", wie die Betreiber
+        werben, das\", \n      \"supertitle\": \"Trolle\", \n      \"teaser_title\":
+        \"Von der Enttarnung eines Reddit-Trolls\"\n    }, \n    {\n      \"subtitle\":
+        \"Ab heute gibt es in Teilen Berlins ein freies, kostenloses WLAN. Der Zugang
+        ist auf 30 Minuten t\\u00e4glich begrenzt. Ein fl\\u00e4chendeckendes Netz
+        ist nicht Ziel des Projekts.\", \n      \"uuid\": \"7EyUxvDlUs2Yplax97uWkU\",
+        \n      \"title\": \"Das freie WLAN in Berlin startet als Flickenteppich\",
+        \n      \"href\": \"http://www.zeit.de/digital/internet/2012-10/wlan-berlin-kostenlos-2\",
+        \n      \"release_date\": \"2012-10-19T09:05:04.72Z\", \n      \"uri\": \"http://api.zeit.de/content/7EyUxvDlUs2Yplax97uWkU\",
+        \n      \"snippet\": \"Von heute an k\\u00f6nnen Internetnutzer in Teilen
+        Berlins kostenlos per WLAN im <em>Internet</em> surfen. Mit Unterst\\u00fctzung
+        der Medienanstalt Berlin-Brandenburg (mabb) bietet Kabel Deutschland in einem\",
+        \n      \"supertitle\": \"Internetzugang\", \n      \"teaser_title\": \"Das
+        freie WLAN in Berlin startet als Flickenteppich\"\n    }\n  ], \n  \"uri\":
+        \"http://api.zeit.de/keyword/internet\", \n  \"value\": \"Internet\", \n  \"score\":
+        96, \n  \"limit\": 10, \n  \"href\": \"http://www.zeit.de/schlagworte/themen/internet/index\",
+        \n  \"offset\": 0, \n  \"found\": 1994, \n  \"type\": \"subject\"\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:32 GMT
+recorded_with: VCR 2.3.0

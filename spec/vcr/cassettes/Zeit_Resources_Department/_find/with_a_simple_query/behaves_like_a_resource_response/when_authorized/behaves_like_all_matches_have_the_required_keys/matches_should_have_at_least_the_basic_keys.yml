@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/department?q=%2Ai%2A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:30 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '1953'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"matches\": [\n    {\n      \"parent\": \"http://api.zeit.de/department/index\",
+        \n      \"href\": \"http://www.zeit.de/index/startseite/index\", \n      \"uri\":
+        \"http://api.zeit.de/department/startseite\", \n      \"value\": \"Startseite\"\n
+        \   }, \n    {\n      \"href\": \"http://www.zeit.de/politik/index\", \n      \"uri\":
+        \"http://api.zeit.de/department/politik\", \n      \"value\": \"Politik\"\n
+        \   }, \n    {\n      \"href\": \"http://www.zeit.de/wirtschaft/index\", \n
+        \     \"uri\": \"http://api.zeit.de/department/wirtschaft\", \n      \"value\":
+        \"Wirtschaft\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/meinung/index\",
+        \n      \"uri\": \"http://api.zeit.de/department/meinung\", \n      \"value\":
+        \"Meinung\"\n    }, \n    {\n      \"parent\": \"http://api.zeit.de/department/gesellschaft\",
+        \n      \"href\": \"http://www.zeit.de/gesellschaft/zeitgeschehen/index\",
+        \n      \"uri\": \"http://api.zeit.de/department/zeitgeschehen\", \n      \"value\":
+        \"Zeitgeschehen\"\n    }, \n    {\n      \"parent\": \"http://api.zeit.de/department/gesellschaft\",
+        \n      \"href\": \"http://www.zeit.de/gesellschaft/familie/index\", \n      \"uri\":
+        \"http://api.zeit.de/department/familie\", \n      \"value\": \"Familie\"\n
+        \   }, \n    {\n      \"parent\": \"http://api.zeit.de/department/kultur\",
+        \n      \"href\": \"http://www.zeit.de/kultur/literatur/index\", \n      \"uri\":
+        \"http://api.zeit.de/department/literatur\", \n      \"value\": \"Literatur\"\n
+        \   }, \n    {\n      \"parent\": \"http://api.zeit.de/department/kultur\",
+        \n      \"href\": \"http://www.zeit.de/kultur/film/index\", \n      \"uri\":
+        \"http://api.zeit.de/department/film\", \n      \"value\": \"Film & TV\"\n
+        \   }, \n    {\n      \"parent\": \"http://api.zeit.de/department/kultur\",
+        \n      \"href\": \"http://www.zeit.de/kultur/musik/index\", \n      \"uri\":
+        \"http://api.zeit.de/department/musik\", \n      \"value\": \"Musik\"\n    },
+        \n    {\n      \"href\": \"http://www.zeit.de/wissen/index\", \n      \"uri\":
+        \"http://api.zeit.de/department/wissen\", \n      \"value\": \"Wissen\"\n
+        \   }\n  ], \n  \"found\": 22, \n  \"limit\": 10, \n  \"offset\": 0\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:30 GMT
+recorded_with: VCR 2.3.0

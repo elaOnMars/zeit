@@ -32,5 +32,20 @@ module Zeit
       Zeit::Resources::Content.new(connection, opts)
     end
 
+    def department(opts = {})
+      Zeit::Resources::Department.new(connection, opts)
+    end
+
+    def keyword(opts = {})
+      Zeit::Resources::Keyword.new(connection, opts)
+    end
+
+    def product(opts = {})
+      Zeit::Resources::Product.new(connection, opts)
+    end
+
+    def series(opts = {})
+      Zeit::Resources::Series.new(connection, opts)
+    end
   end
 end

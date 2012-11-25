@@ -29,4 +29,20 @@ describe Zeit::API do
   describe '#content' do
     its(:content) { should be_instance_of(Zeit::Resources::Content) }
   end
+
+  describe '#department' do
+    its(:department) { should be_instance_of(Zeit::Resources::Department) }
+  end
+
+  describe '#keyword' do
+    its(:keyword) { should be_instance_of(Zeit::Resources::Keyword) }
+  end
+
+  describe '#product' do
+    its(:product) { should be_instance_of(Zeit::Resources::Product) }
+  end
+
+  describe '#series' do
+    its(:series) { should be_instance_of(Zeit::Resources::Series) }
+  end
 end

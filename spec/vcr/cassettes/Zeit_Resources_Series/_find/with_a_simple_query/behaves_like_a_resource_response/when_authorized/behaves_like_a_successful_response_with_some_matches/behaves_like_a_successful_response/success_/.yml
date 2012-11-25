@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/product?q=%2Aer%2A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:33 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '1064'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"matches\": [\n    {\n      \"uri\": \"http://api.zeit.de/product/leserartikel\",
+        \n      \"value\": \"Leserartikel\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/csrg\",
+        \n      \"value\": \"ZEIT CAMPUS Ratgeber\"\n    }, \n    {\n      \"uri\":
+        \"http://api.zeit.de/product/zeoe\", \n      \"value\": \"Zeit Oesterreich\"\n
+        \   }, \n    {\n      \"uri\": \"http://api.zeit.de/product/zsf\", \n      \"value\":
+        \"Zeit Studienf\\u00fchrer\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/kinz\",
+        \n      \"value\": \"Kinderzeit Magazin\"\n    }, \n    {\n      \"uri\":
+        \"http://api.zeit.de/product/adv\", \n      \"value\": \"Advertorial\"\n    },
+        \n    {\n      \"uri\": \"http://api.zeit.de/product/mmv\", \n      \"value\":
+        \"Michael M\\u00fcller Verlag\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/sdw\",
+        \n      \"value\": \"Spektrum der Wissenschaft\"\n    }, \n    {\n      \"uri\":
+        \"http://api.zeit.de/product/ugc\", \n      \"value\": \"User Generated Content\"\n
+        \   }, \n    {\n      \"uri\": \"http://api.zeit.de/product/reuters\", \n
+        \     \"value\": \"Reuters\"\n    }\n  ], \n  \"found\": 10, \n  \"limit\":
+        10, \n  \"offset\": 0\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:33 GMT
+recorded_with: VCR 2.3.0

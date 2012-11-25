@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/content/3GbcIDjwbcH4DZKMZj0Ndd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:29 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '3397'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"creators\": [], \n  \"subtitle\": \"Der Internet-Unternehmer
+        Kim Schmitz ist gegen Kaution aus der Haft in Neuseeland entlassen worden.
+        Die US-Beh\\u00f6rden fordern seine Auslieferung.\", \n  \"title\": \"Megaupload-Gr\\u00fcnder
+        Schmitz auf freiem Fu\\u00df\", \n  \"release_date\": \"2012-02-22T06:48:29.448Z\",
+        \n  \"uri\": \"http://api.zeit.de/content/3GbcIDjwbcH4DZKMZj0Ndd\", \n  \"relations\":
+        [\n    {\n      \"uri\": \"http://api.zeit.de/content/4124U35789iHpu3YREuMuR\",
+        \n      \"rel\": \"related\", \n      \"name\": \"Megaupload-Gr\\u00fcnder
+        Schmitz auf freiem Fu\\u00df\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/content/2Bv3I8drnhQbAKQDIQJRmu\",
+        \n      \"rel\": \"related\", \n      \"name\": \"Megaupload-Gr\\u00fcnder
+        Schmitz auf freiem Fu\\u00df\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/content/3BHrmpk6yYI6ziJWSY1Ch3\",
+        \n      \"rel\": \"related\", \n      \"name\": \"Megaupload-Gr\\u00fcnder
+        Schmitz auf freiem Fu\\u00df\"\n    }\n  ], \n  \"supertitle\": \"Filehoster\",
+        \n  \"href\": \"http://www.zeit.de/digital/2012-02/schmitz-megaupload-freilassung\",
+        \n  \"teaser_text\": \"Der Internet-Unternehmer Kim Schmitz ist gegen Kaution
+        aus der Haft in Neuseeland entlassen worden. Die US-Beh\\u00f6rden fordern
+        seine Auslieferung.\", \n  \"keywords\": [\n    {\n      \"uri\": \"http://api.zeit.de/keyword/kim-schmitz\",
+        \n      \"rel\": \"person\", \n      \"name\": \"Kim Schmitz\"\n    }, \n
+        \   {\n      \"uri\": \"http://api.zeit.de/keyword/film\", \n      \"rel\":
+        \"subject\", \n      \"name\": \"Film\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/keyword/musik\",
+        \n      \"rel\": \"subject\", \n      \"name\": \"Musik\"\n    }, \n    {\n
+        \     \"uri\": \"http://api.zeit.de/keyword/urheberrecht\", \n      \"rel\":
+        \"subject\", \n      \"name\": \"Urheberrecht\"\n    }, \n    {\n      \"uri\":
+        \"http://api.zeit.de/keyword/hacker\", \n      \"rel\": \"subject\", \n      \"name\":
+        \"Hacker\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/keyword/gericht\",
+        \n      \"rel\": \"subject\", \n      \"name\": \"Gericht\"\n    }, \n    {\n
+        \     \"uri\": \"http://api.zeit.de/keyword/software\", \n      \"rel\": \"subject\",
+        \n      \"name\": \"Software\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/keyword/dollar\",
+        \n      \"rel\": \"subject\", \n      \"name\": \"Dollar\"\n    }, \n    {\n
+        \     \"uri\": \"http://api.zeit.de/keyword/vermoegen\", \n      \"rel\":
+        \"subject\", \n      \"name\": \"Verm\\u00f6gen\"\n    }, \n    {\n      \"uri\":
+        \"http://api.zeit.de/keyword/richter\", \n      \"rel\": \"subject\", \n      \"name\":
+        \"Richter\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/keyword/betrug\",
+        \n      \"rel\": \"subject\", \n      \"name\": \"Betrug\"\n    }, \n    {\n
+        \     \"uri\": \"http://api.zeit.de/keyword/internet\", \n      \"rel\": \"subject\",
+        \n      \"name\": \"Internet\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/keyword/familie\",
+        \n      \"rel\": \"subject\", \n      \"name\": \"Familie\"\n    }, \n    {\n
+        \     \"uri\": \"http://api.zeit.de/keyword/usa\", \n      \"rel\": \"location\",
+        \n      \"name\": \"USA\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/keyword/neuseeland\",
+        \n      \"rel\": \"location\", \n      \"name\": \"Neuseeland\"\n    }, \n
+        \   {\n      \"uri\": \"http://api.zeit.de/keyword/auckland\", \n      \"rel\":
+        \"location\", \n      \"name\": \"Auckland\"\n    }\n  ], \n  \"teaser_title\":
+        \"Megaupload-Gr\\u00fcnder Schmitz auf freiem Fu\\u00df\", \n  \"categories\":
+        [\n    {\n      \"uri\": \"http://api.zeit.de/department/digital\", \n      \"rel\":
+        \"department\", \n      \"name\": \"Digital\"\n    }, \n    {\n      \"uri\":
+        \"http://api.zeit.de/product/zede\", \n      \"rel\": \"product\", \n      \"name\":
+        \"ZEIT ONLINE\"\n    }\n  ]\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:29 GMT
+recorded_with: VCR 2.3.0

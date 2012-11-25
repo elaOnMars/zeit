@@ -1,0 +1,137 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/department/internet
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sun, 25 Nov 2012 01:25:30 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '7779'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      connection:
+      - close
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"parent\": \"http://api.zeit.de/department/digital\", \n  \"matches\":
+        [\n    {\n      \"subtitle\": \"400 Millionen Nutzer hat Google Plus nun.
+        Ein Facebook-Ersatz ist es zwar nicht geworden. Aber in Googles Strategie
+        spielt das Netzwerk sowieso eine andere Rolle.\", \n      \"uuid\": \"4JiiZY8lF6xFu2WLS55UFh\",
+        \n      \"title\": \"Google Plus vernetzt vor allem Googles Dienste\", \n
+        \     \"href\": \"http://www.zeit.de/digital/internet/2012-11/google-plus-bilanz\",
+        \n      \"release_date\": \"2012-11-21T16:00:02.106Z\", \n      \"uri\": \"http://api.zeit.de/content/4JiiZY8lF6xFu2WLS55UFh\",
+        \n      \"supertitle\": \"Soziales Netzwerk\", \n      \"teaser_title\": \"Google
+        Plus vernetzt vor allem Googles Dienste\"\n    }, \n    {\n      \"subtitle\":
+        \"Die BBC hat sich bei Alistair McAlpine entschuldigt, weil sie ihn f\\u00e4lschlich
+        eines Verbrechens beschuldigt hatte. Nun verlangt er das von allen, die dar\\u00fcber
+        twitterten.\", \n      \"uuid\": \"1lMP6i6xlofjho0zq6JEys\", \n      \"title\":
+        \"Britischer Politiker will 10.000 Twitterer verklagen\", \n      \"href\":
+        \"http://www.zeit.de/digital/internet/2012-11/twitter-mcalpine-verleumdung\",
+        \n      \"release_date\": \"2012-11-20T17:04:27.163Z\", \n      \"uri\": \"http://api.zeit.de/content/1lMP6i6xlofjho0zq6JEys\",
+        \n      \"supertitle\": \"Linkhaftung\", \n      \"teaser_title\": \"Britischer
+        Politiker will 10.000 Twitterer verklagen\"\n    }, \n    {\n      \"subtitle\":
+        \"Seit der Gaza-Offensive sind israelische Regierungswebsites Ziel von Hackern:
+        44 Millionen Angriffe habe es gegeben. Israel spricht von einem \\\"Krieg
+        an zweiter Front\\\".\", \n      \"uuid\": \"o0ZP3MRNafKRSWgdQ1NlN\", \n      \"title\":
+        \"Israel wehrt sich gegen 44 Millionen Hacker-Angriffe\", \n      \"href\":
+        \"http://www.zeit.de/digital/internet/2012-11/israel-websites-hacker-gaza-konflikt\",
+        \n      \"release_date\": \"2012-11-18T15:59:11.011Z\", \n      \"uri\": \"http://api.zeit.de/content/o0ZP3MRNafKRSWgdQ1NlN\",
+        \n      \"snippet\": \" betrachten.\\nDer Protest richte sich auch gegen das
+        angebliche Vorhaben Israels, <em>Internet</em>-Verbindungen im Gazastreifen
+        zu kappen. Sollte die israelische Regierung Telekommunikationsverbindungen
+        im Gazastreifen\", \n      \"supertitle\": \"Cyberwar in Nahost\", \n      \"teaser_title\":
+        \"Israel wehrt sich gegen 44 Millionen Hacker-Angriffe\"\n    }, \n    {\n
+        \     \"subtitle\": \"Besitz ist ein Konzept von gestern, heute wird geliehen
+        und geteilt. Das Internet hilft dabei. Aber wie selbstlos und nachhaltig ist
+        die Sharing Economy wirklich?\", \n      \"uuid\": \"3i5j5GrgcJM6at9zwMVAiQ\",
+        \n      \"title\": \"Mein Auto ist dein Auto\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/sharing-economy-internet\",
+        \n      \"release_date\": \"2012-11-18T12:41:25.101Z\", \n      \"uri\": \"http://api.zeit.de/content/3i5j5GrgcJM6at9zwMVAiQ\",
+        \n      \"supertitle\": \"Sharing\", \n      \"teaser_title\": \"Mein Auto
+        ist dein Auto\"\n    }, \n    {\n      \"subtitle\": \"Die Onlinepropaganda
+        der israelischen Armee und des militanten Arms der Hamas widerspricht den
+        Regeln von Twitter und Facebook. Die Netzwerke reagieren trotzdem hilflos.\",
+        \n      \"uuid\": \"2nLst2uK0STJlfcjNNdKPN\", \n      \"title\": \"Israel
+        und Hamas bedrohen einander \\u00fcber Twitter\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/israel-hamas-twitter-propaganda\",
+        \n      \"release_date\": \"2012-11-16T13:36:26.87Z\", \n      \"uri\": \"http://api.zeit.de/content/2nLst2uK0STJlfcjNNdKPN\",
+        \n      \"supertitle\": \"Social Media\", \n      \"teaser_title\": \"Israel
+        und Hamas bedrohen einander \\u00fcber Twitter\"\n    }, \n    {\n      \"subtitle\":
+        \"Wer seine Kinder belehrt, dass sie keine Musik im Netz herunterladen sollen,
+        muss nicht zahlen, wenn sie es doch tun. Das urteilte der Bundesgerichtshof.\",
+        \n      \"uuid\": \"7L6DWaN2poiHrWh4ZNSuLQ\", \n      \"title\": \"Eltern
+        haften nicht f\\u00fcr Downloads ihrer Kinder\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/bgh-filesharing-urteil\",
+        \n      \"release_date\": \"2012-11-15T16:02:21.177Z\", \n      \"uri\": \"http://api.zeit.de/content/7L6DWaN2poiHrWh4ZNSuLQ\",
+        \n      \"snippet\": \" Nutzung des <em>Internet</em> durch das Kind zu \\u00fcberwachen,
+        den Computer des Kindes zu \\u00fcberpr\\u00fcfen oder dem Kind den Zugang
+        zum <em>Internet</em> (teilweise) zu versperren, besteht grunds\\u00e4tzlich
+        nicht\\\", urteilten die Richter\", \n      \"supertitle\": \"BGH zu Filesharing\",
+        \n      \"teaser_title\": \"Eltern haften nicht f\\u00fcr Downloads ihrer
+        Kinder\"\n    }, \n    {\n      \"subtitle\": \"Amerikanisches Milit\\u00e4r
+        und Sicherheitsdienste d\\u00fcrfen Rechner in fremden L\\u00e4ndern angreifen,
+        um die USA zu sch\\u00fctzen. Das bestimmte Pr\\u00e4sident Obama in einem
+        geheimen Gesetz.\", \n      \"uuid\": \"fw7E2HOLZTkKLFErR35o7\", \n      \"title\":
+        \"Obama erlaubt Angriffe auf fremde Netze\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/obama-cyberwar-direktive\",
+        \n      \"release_date\": \"2012-11-15T12:15:14.081Z\", \n      \"uri\": \"http://api.zeit.de/content/fw7E2HOLZTkKLFErR35o7\",
+        \n      \"snippet\": \", aggressiver gegen Angriffe vorzugehen, die \\u00fcber
+        das <em>Internet</em> gegen die USA gef\\u00fchrt werden. Obama habe sie bereits
+        im Oktober unterschrieben.\\nDie Order verst\\u00e4rkt das bisherige Vorgehen.
+        Im Juli 2002\", \n      \"supertitle\": \"Cyberwar\", \n      \"teaser_title\":
+        \"Obama erlaubt Angriffe auf fremde Netze\"\n    }, \n    {\n      \"subtitle\":
+        \"Filtern, blocken, l\\u00f6schen. In Russland k\\u00f6nnen Websites nun ohne
+        Gerichtsbeschluss gesperrt werden. Die Filterliste ist nicht \\u00f6ffentlich,
+        die Kriterien sind schwammig.\", \n      \"uuid\": \"75nFNpLnWiOoIwXl7viMD\",
+        \n      \"title\": \"Russlands schwarze Liste\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/russland-internet-netzsperren\",
+        \n      \"release_date\": \"2012-11-12T16:11:01.971Z\", \n      \"uri\": \"http://api.zeit.de/content/75nFNpLnWiOoIwXl7viMD\",
+        \n      \"snippet\": \" Gesundheitsbeh\\u00f6rde verwies, die aber laut Gesetz
+        nicht f\\u00fcr den <em>Internet</em>-Index zust\\u00e4ndig ist.\\nKritiker
+        f\\u00fcrchten, dass bald auch regierungskritische Seiten den neuen Regeln
+        zum Opfer fallen k\\u00f6nnten. Schon bisher hat die\", \n      \"supertitle\":
+        \"Netzsperren\", \n      \"teaser_title\": \"Russlands schwarze Liste\"\n
+        \   }, \n    {\n      \"subtitle\": \"Apple retuschiert B\\u00fccher und Musik
+        in seinen Onlinel\\u00e4den. Angesichts seiner Marktstellung ein Problem.
+        Der d\\u00e4nische Kulturminister will es mit seinen EU-Kollegen bereden.\",
+        \n      \"uuid\": \"5xfkHB7DMextww3SWwHmd8\", \n      \"title\": \"Apple f\\u00fcrchtet
+        nackte \\u00c4pfel\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/apple-zensur-brueste\",
+        \n      \"release_date\": \"2012-11-11T08:32:14.772Z\", \n      \"uri\": \"http://api.zeit.de/content/5xfkHB7DMextww3SWwHmd8\",
+        \n      \"supertitle\": \"Onlinehandel\", \n      \"teaser_title\": \"Apple
+        f\\u00fcrchtet nackte \\u00c4pfel\"\n    }, \n    {\n      \"subtitle\": \"Mitbestimmen
+        geht nicht nur bei der Piratenpartei. Der Landkreis Friesland nutzt ab heute
+        als erste Kommune die Software Liquid Feedback, um B\\u00fcrger zu beteiligen.\",
+        \n      \"uuid\": \"1OSlCJSlGqXWD22HIOAzvl\", \n      \"title\": \"Landkreis
+        Friesland f\\u00fchrt Liquid Feedback ein\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/liquid-feedback-friesland\",
+        \n      \"release_date\": \"2012-11-09T15:21:53.402Z\", \n      \"uri\": \"http://api.zeit.de/content/1OSlCJSlGqXWD22HIOAzvl\",
+        \n      \"snippet\": \", hat niemand ans <em>Internet</em> gedacht\\\", sagt
+        Klug.\\nAllerdings hat der Kreistag zugsichert, die Meinungsbilder der B\\u00fcrger
+        zu beachten und bei Entscheidungen zu ber\\u00fccksichtigen. F\\u00fcr Nitsche
+        war das eine\", \n      \"supertitle\": \"B\\u00fcrgerbeteiligung\", \n      \"teaser_title\":
+        \"Landkreis Friesland f\\u00fchrt Liquid Feedback ein\"\n    }\n  ], \n  \"uri\":
+        \"http://api.zeit.de/department/internet\", \n  \"value\": \"Internet\", \n
+        \ \"href\": \"http://www.zeit.de/digital/internet/index\", \n  \"limit\":
+        10, \n  \"offset\": 0, \n  \"found\": 1219\n}"
+    http_version: '1.1'
+  recorded_at: Sun, 25 Nov 2012 01:25:30 GMT
+recorded_with: VCR 2.3.0
