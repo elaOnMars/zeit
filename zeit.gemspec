@@ -24,6 +24,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'faraday'
 
   gem.add_development_dependency 'bundler',     '~> 1.0'
+  gem.add_development_dependency 'json',        '~> 1.7.5'
   gem.add_development_dependency 'rspec',       '~> 2.12.0'
   gem.add_development_dependency 'guard-rspec', '~> 2.1.2'
   gem.add_development_dependency 'rb-fsevent'

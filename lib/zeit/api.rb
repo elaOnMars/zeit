@@ -12,7 +12,7 @@ module Zeit
     end
 
     def connection
-      @connection ||= Faraday.new(url: @base_url) do |faraday|
+      @connection ||= Faraday.new(:url => @base_url) do |faraday|
         faraday.use      Zeit::AuthenticationMiddleware, @api_key
         faraday.request  :url_encoded
         faraday.response :logger
