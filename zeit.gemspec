@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ['Roland Moriz']
   gem.email         = ['roland@moriz.de']
   gem.description   = %q{API client for Zeit.de API}
-  gem.summary       = %q{API client for Zeit.de API, not working yet}
+  gem.summary       = %q{API client for Zeit.de API}
   gem.homepage      = "http://github.com/rmoriz/zeit"
 
   gem.files         = `git ls-files`.split($/).select { |file| file !~ /^spec\/vcr/ }
