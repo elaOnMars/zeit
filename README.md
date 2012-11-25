@@ -4,7 +4,7 @@ This gem is a ruby client for the Zeit.de API (http://developer.zeit.de/).
 
 The german newspaper "Die Zeit" recently announced a so called "content
 API" to access their large collection of printed and online articles of
-the past years. To access thir API you'll have to create an api-key which allows you to
+the past years. To access their API you'll have to create an api-key which allows you to
 make 10.000 requests per day, free of charge for non-commercial usage.
 
 See http://developer.zeit.de/quickstart/
