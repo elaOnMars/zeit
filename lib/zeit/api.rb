@@ -3,6 +3,7 @@ module Zeit
 
     def initialize(params = {})
       @api_key         = params[:api_key]
+      @debug           = params[:debug]
       @base_url        = params[:base_url]        || 'http://api.zeit.de/'
       @faraday_adapter = params[:faraday_adapter] || Faraday.default_adapter
 
@@ -15,7 +16,7 @@ module Zeit
       @connection ||= Faraday.new(:url => @base_url) do |faraday|
         faraday.use      Zeit::AuthenticationMiddleware, @api_key
         faraday.request  :url_encoded
-        faraday.response :logger
+        faraday.response(:logger) if @debug
         faraday.adapter  @faraday_adapter
       end
     end
