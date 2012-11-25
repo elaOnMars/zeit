@@ -1,19 +1,24 @@
-require 'zeit'
 require 'spec_helper'
 
-describe 'Zeit::Resources::Client' do
-  describe '.new' do
-    it 'should require a connection object to be initalized' do
-      expect { Zeit::Resources::Client.new }.to raise_error
-    end
-  end
+describe Zeit::Resources::Client, :vcr do
+  it_behaves_like 'a resource'
 
-  describe '#client' do
-    let(:api) { Zeit::API.new api_key: 'whatever' }
-    subject { Zeit::Resources::Client.new api.connection }
+  describe '#get' do
+    it_behaves_like 'a resource response' do
+      subject { Zeit::Resources::Client.new(api_connection).get }
 
-    it 'should return information about the api usage of the current account' do
-      #subject.client
+      context 'when authorized' do
+        it_behaves_like 'a successful response'
+
+        it 'should return information about the api usage of the current account' do
+         parsed_json.has_key? 'requests'
+         parsed_json.has_key? 'tier'
+        end
+      end
+
+      context 'when unauthorized' do
+        it_behaves_like 'an unauthorized request'
+      end
     end
   end
 end

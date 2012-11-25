@@ -1,16 +1,11 @@
 module Zeit
   module Resources
     class Client < Base
-      def client
-        raw_client
+      def get
+        @connection.get '/client'
       end
 
-      def raw_client
-        @connection.get '/client' do |request|
-        end
-      end
-
-      alias_method :get, :client
+      alias_method :client, :get
     end
   end
 end

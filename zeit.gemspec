@@ -17,7 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-
   if RUBY_PLATFORM == 'java'
     gem.add_runtime_dependency 'jruby-openssl'
   end
