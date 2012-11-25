@@ -1,6 +1,13 @@
 # Zeit
 
-TODO: Write a gem description
+This gem is a ruby client for the Zeit.de API (http://developer.zeit.de/).
+
+The german newspaper "Die Zeit" recently announced a so called "content
+API" to access their large collection of printed and online articles of
+the past years. To access thir API you'll have to create an api-key which allows you to
+make 10.000 requests per day, free of charge for non-commercial usage.
+
+See http://developer.zeit.de/quickstart/
 
 ## Installation
 
@@ -18,7 +25,49 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+    require 'zeit'
+    require 'json'
+    
+    zeit = Zeit::API.new :api_key => 'aaabbccccdddeeeeeeffgggg'
+    
+    # author
+    result = zeit.author.find '*Schmidt*'
+    
+    data = JSON.parse(result.body)
+    data['matches'].inspect
+
+    # content
+    result = zeit.content.find '*Software*', :limit => 200, :offset => 100
+    
+    data = JSON.parse(result.body)
+    data['matches'].inspect
+    
+    # department
+    result = zeit.department.find '*internet*'
+    ...
+
+    # keyword
+    result = zeit.keyword.find '*internet*'
+    ...
+
+    # product
+    result = zeit.product.find '*ZEIT*'
+
+    # series
+    result = zeit.series.find 'Die*'
+   
+    # client
+    result = zeit.client.get
+    data = JSON.parse(result.body)
+    # => {"reset"=>1353785293,
+    #  "name"=>"my name",
+    #  "quota"=>10000,
+    #  "tier"=>"free",
+    #  "requests"=>192,
+    #  "api_key"=>"aaaaaaaabbbbbbbbbbcccc",
+    #  "email"=>"email@example.com"}
+
 
 ## Contributing
 
