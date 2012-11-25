@@ -9,6 +9,10 @@ make 10.000 requests per day, free of charge for non-commercial usage.
 
 See http://developer.zeit.de/quickstart/
 
+## Continous Integration / Tests
+
+[![Build Status](https://secure.travis-ci.org/rmoriz/zeit.png?branch=master)](https://travis-ci.org/rmoriz/zeit)
+
 ## Installation
 
 Add this line to your application's Gemfile:
