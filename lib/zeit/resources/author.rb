@@ -1,7 +1,8 @@
 module Zeit
   module Resources
     class Author < Base
-      def find(query, opts = {})
+      def find(q, opts = {})
+        opts[:q] = q
         @connection.get '/author' do |query|
           apply_params(query, opts)
         end

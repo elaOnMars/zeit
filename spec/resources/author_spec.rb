@@ -7,7 +7,7 @@ describe Zeit::Resources::Author, :vcr do
     context 'with a simple query' do
       it_behaves_like 'a resource response' do
         subject { Zeit::Resources::Author.new(api_connection).find(query) }
-        let(:query) { '*Helmut*Schmidt*' }
+        let(:query) { '*Schmidt*' }
 
         context 'when authorized' do
           it_behaves_like 'a successful response with some matches'
