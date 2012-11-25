@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{API client for Zeit.de API}
   gem.summary       = %q{API client for Zeit.de API}
   gem.homepage      = "http://github.com/rmoriz/zeit"
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/).select { |file| file !~ /^spec\/vcr/ }
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
