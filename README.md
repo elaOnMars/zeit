@@ -1,6 +1,6 @@
 # Zeit
 
-This gem is a ruby client for the Zeit.de API (http://developer.zeit.de/).
+This gem is a ruby 1.9+ client for the Zeit.de API (http://developer.zeit.de/).
 
 The german newspaper "Die Zeit" recently announced a so called "content
 API" to access their large collection of printed and online articles of
