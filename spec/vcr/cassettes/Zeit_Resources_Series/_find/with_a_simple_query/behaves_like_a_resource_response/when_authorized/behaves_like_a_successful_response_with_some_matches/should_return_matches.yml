@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.zeit.de/product?q=%2Aer%2A
+    uri: http://api.zeit.de/series?q=%2Aer%2A
     body:
       encoding: US-ASCII
       string: ''
@@ -21,38 +21,46 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Sun, 25 Nov 2012 01:25:33 GMT
+      - Tue, 27 Nov 2012 20:09:32 GMT
       server:
       - Apache/2.2.22 (Ubuntu)
       cache-control:
       - max-age=1
       content-length:
-      - '1064'
+      - '1900'
       access-control-allow-origin:
       - ! '*'
       access-control-allow-headers:
       - x-authorization
-      connection:
-      - close
       content-type:
       - application/json
+      connection:
+      - close
     body:
       encoding: US-ASCII
-      string: ! "{\n  \"matches\": [\n    {\n      \"uri\": \"http://api.zeit.de/product/leserartikel\",
-        \n      \"value\": \"Leserartikel\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/csrg\",
-        \n      \"value\": \"ZEIT CAMPUS Ratgeber\"\n    }, \n    {\n      \"uri\":
-        \"http://api.zeit.de/product/zeoe\", \n      \"value\": \"Zeit Oesterreich\"\n
-        \   }, \n    {\n      \"uri\": \"http://api.zeit.de/product/zsf\", \n      \"value\":
-        \"Zeit Studienf\\u00fchrer\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/kinz\",
-        \n      \"value\": \"Kinderzeit Magazin\"\n    }, \n    {\n      \"uri\":
-        \"http://api.zeit.de/product/adv\", \n      \"value\": \"Advertorial\"\n    },
-        \n    {\n      \"uri\": \"http://api.zeit.de/product/mmv\", \n      \"value\":
-        \"Michael M\\u00fcller Verlag\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/sdw\",
-        \n      \"value\": \"Spektrum der Wissenschaft\"\n    }, \n    {\n      \"uri\":
-        \"http://api.zeit.de/product/ugc\", \n      \"value\": \"User Generated Content\"\n
-        \   }, \n    {\n      \"uri\": \"http://api.zeit.de/product/reuters\", \n
-        \     \"value\": \"Reuters\"\n    }\n  ], \n  \"found\": 10, \n  \"limit\":
-        10, \n  \"offset\": 0\n}"
+      string: ! "{\n  \"matches\": [\n    {\n      \"href\": \"http://www.zeit.de/serie/fragen-der-wissenschaft\",
+        \n      \"uri\": \"http://api.zeit.de/series/fragen-der-wissenschaft\", \n
+        \     \"value\": \"12 Fragen der Wissenschaft\"\n    }, \n    {\n      \"href\":
+        \"http://www.zeit.de/serie/fuenfzig-jahre-einwanderungsland\", \n      \"uri\":
+        \"http://api.zeit.de/series/fuenfzig-jahre-einwanderungsland\", \n      \"value\":
+        \"50 Jahre Einwanderungsland\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/serie/alles-ausser-fussball\",
+        \n      \"uri\": \"http://api.zeit.de/series/alles-ausser-fussball\", \n      \"value\":
+        \"Alles au\\u00dfer Fu\\u00dfball\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/serie/alles-ueber-fussball\",
+        \n      \"uri\": \"http://api.zeit.de/series/alles-ueber-fussball\", \n      \"value\":
+        \"Alles \\u00fcber Fu\\u00dfball\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/serie/ausprobiert\",
+        \n      \"uri\": \"http://api.zeit.de/series/ausprobiert\", \n      \"value\":
+        \"Ausprobiert\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/serie/beruf-der-woche\",
+        \n      \"uri\": \"http://api.zeit.de/series/beruf-der-woche\", \n      \"value\":
+        \"Beruf der Woche\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/serie/besser-wirtschaften\",
+        \n      \"uri\": \"http://api.zeit.de/series/besser-wirtschaften\", \n      \"value\":
+        \"Besser wirtschaften\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/serie/das-demografische-experiment\",
+        \n      \"uri\": \"http://api.zeit.de/series/das-demografische-experiment\",
+        \n      \"value\": \"Das demografische Experiment\"\n    }, \n    {\n      \"href\":
+        \"http://www.zeit.de/serie/das-erste-mal\", \n      \"uri\": \"http://api.zeit.de/series/das-erste-mal\",
+        \n      \"value\": \"Das erste Mal\"\n    }, \n    {\n      \"href\": \"http://www.zeit.de/serie/das-unterschaetzte-tier\",
+        \n      \"uri\": \"http://api.zeit.de/series/das-unterschaetzte-tier\", \n
+        \     \"value\": \"Das untersch\\u00e4tzte Tier\"\n    }\n  ], \n  \"found\":
+        64, \n  \"limit\": 10, \n  \"offset\": 0\n}"
     http_version: '1.1'
-  recorded_at: Sun, 25 Nov 2012 01:25:33 GMT
+  recorded_at: Tue, 27 Nov 2012 20:09:32 GMT
 recorded_with: VCR 2.3.0

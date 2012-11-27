@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Sun, 25 Nov 2012 14:37:04 GMT
+      - Tue, 27 Nov 2012 20:09:54 GMT
       server:
       - Apache/2.2.22 (Ubuntu)
       cache-control:
@@ -32,10 +32,10 @@ http_interactions:
       - ! '*'
       access-control-allow-headers:
       - x-authorization
-      connection:
-      - close
       content-type:
       - application/json
+      connection:
+      - close
     body:
       encoding: US-ASCII
       string: ! "{\n  \"matches\": [\n    {\n      \"type\": \"author\", \n      \"uri\":
@@ -62,5 +62,5 @@ http_interactions:
         \n      \"value\": \"Aufnahmen-Ulrich Schmidt/hans Zillmann\"\n    }\n  ],
         \n  \"found\": 126, \n  \"limit\": 10, \n  \"offset\": 0\n}"
     http_version: '1.1'
-  recorded_at: Sun, 25 Nov 2012 14:37:04 GMT
+  recorded_at: Tue, 27 Nov 2012 20:09:54 GMT
 recorded_with: VCR 2.3.0

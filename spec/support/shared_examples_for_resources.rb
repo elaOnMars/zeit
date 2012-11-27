@@ -9,7 +9,6 @@ end
 shared_examples 'a resource response' do
   let(:json) { subject.body }
   let(:api_connection) { authorized_api_client.connection }
-  let(:parsed_json) { JSON.parse(json) }
 end
 
 shared_examples 'a successful response' do
@@ -20,7 +19,7 @@ shared_examples 'a successful response with some matches' do
   it_behaves_like 'a successful response'
 
   it 'should return matches' do
-    parsed_json['matches'].should have_at_least(10).items
+    json['matches'].should have_at_least(10).items
   end
 end
 
@@ -35,7 +34,7 @@ shared_examples 'an error message response' do
   its(:success?) { should be_false }
 
   it 'should return an error message' do
-    parsed_json['description'].should_not be_empty
+    json['description'].should_not be_empty
   end
 end
 
@@ -43,7 +42,7 @@ end
 # FIXME allow new keys
 shared_examples 'all matches have the required keys' do
   it 'matches should have at least the basic keys' do
-    parsed_json['matches'].each do |match|
+    json['matches'].each do |match|
       keys.each do |required_key|
         match.keys.should include(required_key)
       end

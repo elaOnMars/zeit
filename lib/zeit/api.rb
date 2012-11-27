@@ -6,19 +6,13 @@ module Zeit
       @debug           = params[:debug]
       @base_url        = params[:base_url]        || 'http://api.zeit.de/'
       @faraday_adapter = params[:faraday_adapter] || Faraday.default_adapter
+      @faraday         = params[:faraday]         || default_faraday
 
       raise ArgumentError, ':api_key missing' unless @api_key
-
-      connection
     end
 
     def connection
-      @connection ||= Faraday.new(:url => @base_url) do |faraday|
-        faraday.use      Zeit::AuthenticationMiddleware, @api_key
-        faraday.request  :url_encoded
-        faraday.response(:logger) if @debug
-        faraday.adapter  @faraday_adapter
-      end
+      @faraday
     end
 
     def author(opts = {})
@@ -47,6 +41,18 @@ module Zeit
 
     def series(opts = {})
       Zeit::Resources::Series.new(connection, opts)
+    end
+
+    private
+
+    def default_faraday
+      Faraday.new(:url => @base_url) do |faraday|
+        faraday.use      Zeit::AuthenticationMiddleware, @api_key
+        faraday.request  :url_encoded
+        faraday.response :json
+        faraday.response(:logger) if @debug
+        faraday.adapter @faraday_adapter
+      end
     end
   end
 end

@@ -22,3 +22,6 @@ pkg
 
 ## PROJECT::SPECIFIC
 report.html
+
+.rbenv-version
+.rbenv-vars

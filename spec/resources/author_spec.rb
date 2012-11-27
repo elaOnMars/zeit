@@ -35,7 +35,7 @@ describe Zeit::Resources::Author, :vcr do
           end
 
           it 'should have the right data type' do
-            parsed_json['type'].should eql('author')
+            json['type'].should eql('author')
           end
         end
 

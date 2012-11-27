@@ -33,12 +33,12 @@ describe Zeit::Resources::Content, :vcr do
 
         context 'when authorized' do
           it 'should have some important values' do
-            parsed_json.has_key? 'title'
+            json.has_key? 'title'
 
-            parsed_json['creators'].should   be_instance_of(Array)
-            parsed_json['relations'].should  be_instance_of(Array)
-            parsed_json['keywords'].should   be_instance_of(Array)
-            parsed_json['categories'].should be_instance_of(Array)
+            json['creators'].should   be_instance_of(Array)
+            json['relations'].should  be_instance_of(Array)
+            json['keywords'].should   be_instance_of(Array)
+            json['categories'].should be_instance_of(Array)
           end
         end
 

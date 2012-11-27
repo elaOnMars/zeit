@@ -35,9 +35,9 @@ describe Zeit::Resources::Department, :vcr do
           it_behaves_like 'a successful response with some matches'
 
           it 'should have some important values' do
-            parsed_json.has_key? 'uri'
-            parsed_json.has_key? 'value'
-            parsed_json.has_key? 'href'
+            json.has_key? 'uri'
+            json.has_key? 'value'
+            json.has_key? 'href'
           end
         end
 

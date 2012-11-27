@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Sun, 25 Nov 2012 01:25:28 GMT
+      - Tue, 27 Nov 2012 20:10:00 GMT
       server:
       - Apache/2.2.22 (Ubuntu)
       cache-control:
@@ -32,10 +32,10 @@ http_interactions:
       - ! '*'
       access-control-allow-headers:
       - x-authorization
-      connection:
-      - close
       content-type:
       - application/json
+      connection:
+      - close
     body:
       encoding: US-ASCII
       string: ! "{\n  \"matches\": [\n    {\n      \"subtitle\": \"Der neuseel\\u00e4ndische
@@ -145,5 +145,5 @@ http_interactions:
         \n      \"teaser_title\": \"Kim Schmitz bleibt schwer zu fassen\"\n    }\n
         \ ], \n  \"found\": 16, \n  \"limit\": 10, \n  \"offset\": 0\n}"
     http_version: '1.1'
-  recorded_at: Sun, 25 Nov 2012 01:25:28 GMT
+  recorded_at: Tue, 27 Nov 2012 20:10:00 GMT
 recorded_with: VCR 2.3.0

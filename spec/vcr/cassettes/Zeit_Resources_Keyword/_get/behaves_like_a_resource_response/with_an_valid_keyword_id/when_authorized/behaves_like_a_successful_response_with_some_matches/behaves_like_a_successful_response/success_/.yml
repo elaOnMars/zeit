@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Sun, 25 Nov 2012 01:25:32 GMT
+      - Tue, 27 Nov 2012 20:10:09 GMT
       server:
       - Apache/2.2.22 (Ubuntu)
       cache-control:
@@ -32,10 +32,10 @@ http_interactions:
       - ! '*'
       access-control-allow-headers:
       - x-authorization
-      connection:
-      - close
       content-type:
       - application/json
+      connection:
+      - close
     body:
       encoding: US-ASCII
       string: ! "{\n  \"matches\": [\n    {\n      \"subtitle\": \"Durch eine Klage
@@ -152,5 +152,5 @@ http_interactions:
         96, \n  \"limit\": 10, \n  \"href\": \"http://www.zeit.de/schlagworte/themen/internet/index\",
         \n  \"offset\": 0, \n  \"found\": 1994, \n  \"type\": \"subject\"\n}"
     http_version: '1.1'
-  recorded_at: Sun, 25 Nov 2012 01:25:32 GMT
+  recorded_at: Tue, 27 Nov 2012 20:10:10 GMT
 recorded_with: VCR 2.3.0

@@ -3,13 +3,13 @@ module Zeit
     class Series < Base
       def find(q, opts = {})
         opts[:q] = q
-        @connection.get '/product' do |query|
+        @connection.get '/series' do |query|
           apply_params(query, opts)
         end
       end
 
       def get(id, opts = {})
-        @connection.get "/product/#{id}" do |query|
+        @connection.get "/series/#{id}" do |query|
           apply_params(query, opts)
         end
       end

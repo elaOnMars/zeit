@@ -37,15 +37,11 @@ Or install it yourself as:
     
     # author
     result = zeit.author.find '*Schmidt*'
-    
-    data = JSON.parse(result.body)
-    data['matches'].inspect
+    result['matches'].inspect
 
     # content
     result = zeit.content.find '*Software*', :limit => 200, :offset => 100
-    
-    data = JSON.parse(result.body)
-    data['matches'].inspect
+    result['matches'].inspect
     
     # department
     result = zeit.department.find '*internet*'
@@ -63,7 +59,6 @@ Or install it yourself as:
    
     # client
     result = zeit.client.get
-    data = JSON.parse(result.body)
     # => {"reset"=>1353785293,
     #  "name"=>"my name",
     #  "quota"=>10000,

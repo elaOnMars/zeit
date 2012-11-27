@@ -21,26 +21,26 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Sun, 25 Nov 2012 01:25:28 GMT
+      - Tue, 27 Nov 2012 20:09:58 GMT
       server:
       - Apache/2.2.22 (Ubuntu)
       cache-control:
       - max-age=1
       content-length:
-      - '188'
+      - '210'
       access-control-allow-origin:
       - ! '*'
       access-control-allow-headers:
       - x-authorization
-      connection:
-      - close
       content-type:
       - application/json
+      connection:
+      - close
     body:
       encoding: US-ASCII
-      string: ! "{\n  \"reset\": 1353785293, \n  \"name\": \"xx\", \n  \"quota\":
-        10000, \n  \"tier\": \"free\", \n  \"requests\": 163, \n  \"api_key\": \"working\",
-        \n  \"email\": \"xx\"\n}"
+      string: ! "{\n  \"reset\": 1354046555, \n  \"name\": \"Roland Moriz\", \n  \"quota\":
+        10000, \n  \"tier\": \"free\", \n  \"requests\": 61, \n  \"api_key\": \"working\",
+        \n  \"email\": \"roland@moriz.de\"\n}"
     http_version: '1.1'
-  recorded_at: Sun, 25 Nov 2012 01:25:28 GMT
+  recorded_at: Tue, 27 Nov 2012 20:09:58 GMT
 recorded_with: VCR 2.3.0

@@ -18,10 +18,10 @@ http_interactions:
   response:
     status:
       code: 401
-      message: UNAUTHORIZED
+      message: Unauthorized
     headers:
       date:
-      - Sun, 25 Nov 2012 01:25:31 GMT
+      - Tue, 27 Nov 2012 20:10:08 GMT
       server:
       - Apache/2.2.22 (Ubuntu)
       cache-control:
@@ -32,13 +32,13 @@ http_interactions:
       - ! '*'
       access-control-allow-headers:
       - x-authorization
-      connection:
-      - close
       content-type:
       - application/json
+      connection:
+      - close
     body:
       encoding: US-ASCII
       string: ! '{"description": "The provided api key seems to be invalid."}'
     http_version: '1.1'
-  recorded_at: Sun, 25 Nov 2012 01:25:32 GMT
+  recorded_at: Tue, 27 Nov 2012 20:10:08 GMT
 recorded_with: VCR 2.3.0

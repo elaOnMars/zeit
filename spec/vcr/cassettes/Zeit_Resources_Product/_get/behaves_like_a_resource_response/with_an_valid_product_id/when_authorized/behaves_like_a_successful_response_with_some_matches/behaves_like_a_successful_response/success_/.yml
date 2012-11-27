@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/product/zede
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 27 Nov 2012 20:10:13 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '6653'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      content-type:
+      - application/json
+      connection:
+      - close
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"matches\": [\n    {\n      \"subtitle\": \"Ein Minus von fast
+        730 Millionen Euro muss Finanzminister Sch\\u00e4uble wegen der Griechenland-Hilfe
+        einplanen. Der Bundestag soll schnell entscheiden, die SPD aber bremst.\",
+        \n      \"uuid\": \"2J718KtQX7LUZcc4FIm1D2\", \n      \"title\": \"Griechenland-Hilfe
+        belastet Bundeshaushalt millionenschwer\", \n      \"href\": \"http://www.zeit.de/wirtschaft/2012-11/griechenland-hilfe-kosten-deutschland\",
+        \n      \"release_date\": \"2012-11-27T16:22:39Z\", \n      \"uri\": \"http://api.zeit.de/content/2J718KtQX7LUZcc4FIm1D2\",
+        \n      \"supertitle\": \"Euro-Krise\", \n      \"teaser_title\": \"Griechenland-Hilfe
+        belastet Bundeshaushalt millionenschwer\"\n    }, \n    {\n      \"subtitle\":
+        \"Wenn daf\\u00fcr keine Embryonen sterben m\\u00fcssen, sind Therapie- und
+        Forschungsverfahren mit Stammzellen k\\u00fcnftig patentierbar. Das entschied
+        der Bundesgerichtshof.\", \n      \"uuid\": \"7KtZv6cyQtzOIUM92Gdypr\", \n
+        \     \"title\": \"Bundesgerichtshof erlaubt Stammzell-Patente unter Auflagen\",
+        \n      \"href\": \"http://www.zeit.de/wissen/gesundheit/2012-11/stammzellen-bundesgerichtshof-patente\",
+        \n      \"release_date\": \"2012-11-27T16:05:30Z\", \n      \"uri\": \"http://api.zeit.de/content/7KtZv6cyQtzOIUM92Gdypr\",
+        \n      \"supertitle\": \"Urteil\", \n      \"teaser_title\": \"Bundesgerichtshof
+        erlaubt Stammzell-Patente unter Auflagen\"\n    }, \n    {\n      \"subtitle\":
+        \"Mit seinen Dekreten hat Pr\\u00e4sident Mursi den Bogen \\u00fcberspannt.
+        Jetzt muss er auf die S\\u00e4kularen zugehen, um eine weitere Eskalation
+        zu verhindern, kommentiert M. Gehlen.\", \n      \"uuid\": \"7rholppAWC6xfIWGiroG2M\",
+        \n      \"title\": \"Keiner kann \\u00c4gypten allein regieren\", \n      \"href\":
+        \"http://www.zeit.de/politik/ausland/2012-11/mursi-aegypten-muslimbrueder-kairo-kommentar\",
+        \n      \"release_date\": \"2012-11-27T15:38:09Z\", \n      \"uri\": \"http://api.zeit.de/content/7rholppAWC6xfIWGiroG2M\",
+        \n      \"supertitle\": \"Unruhen\", \n      \"teaser_title\": \"Keiner kann
+        \\u00c4gypten allein regieren\"\n    }, \n    {\n      \"subtitle\": \"Die
+        Fernmeldeunion ITU h\\u00e4lt Proteste gegen ihre geplanten Beschl\\u00fcsse
+        f\\u00fcr m\\u00f6glich. Eine Gegenkampagne soll das verhindern und Kritik
+        an ihren Pl\\u00e4nen abschw\\u00e4chen.\", \n      \"uuid\": \"gpmSXUgSb4EHQ8IYAPQBP\",
+        \n      \"title\": \"Fernmeldeunion f\\u00fcrchtet Proteste wie gegen Acta\",
+        \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/itu-wcit-dubai-acta\",
+        \n      \"release_date\": \"2012-11-27T15:27:03Z\", \n      \"uri\": \"http://api.zeit.de/content/gpmSXUgSb4EHQ8IYAPQBP\",
+        \n      \"supertitle\": \"WCIT-Treffen in Dubai\", \n      \"teaser_title\":
+        \"Fernmeldeunion f\\u00fcrchtet Proteste wie gegen Acta\"\n    }, \n    {\n
+        \     \"subtitle\": \"Brad Pitt zeichnet in der Gangsterstory \\\"Killing
+        them softly\\\" eine Parabel der amerikanischen Gesellschaft. Sie ist brutal,
+        pessimistisch und schlimmstenfalls wahr.\", \n      \"uuid\": \"7x1jZQ8VczA3LLmoy5yyT1\",
+        \n      \"title\": \"Hier sterben die Leute ganz schonend\", \n      \"href\":
+        \"http://www.zeit.de/kultur/film/2012-11/film-killing-them-softly\", \n      \"release_date\":
+        \"2012-11-27T15:16:29Z\", \n      \"uri\": \"http://api.zeit.de/content/7x1jZQ8VczA3LLmoy5yyT1\",
+        \n      \"supertitle\": \"Film \\\"Killing them softly\\\"\", \n      \"teaser_title\":
+        \"Hier sterben die Leute ganz schonend\"\n    }, \n    {\n      \"subtitle\":
+        \"In \\u00c4gypten protestieren Gegner von Pr\\u00e4sident Mursi gegen dessen
+        selbst erschaffene Machtf\\u00fclle. In Kairo gab es Zusammenst\\u00f6\\u00dfe
+        von Demonstranten und Polizei.\", \n      \"uuid\": \"429KJvAQZNxWMo1fRY86x6\",
+        \n      \"title\": \"Polizei setzt Tr\\u00e4nengas gegen Mursi-Gegner ein\",
+        \n      \"href\": \"http://www.zeit.de/politik/ausland/2012-11/aegypten-mursi-proteste-krawalle\",
+        \n      \"release_date\": \"2012-11-27T12:54:29Z\", \n      \"uri\": \"http://api.zeit.de/content/429KJvAQZNxWMo1fRY86x6\",
+        \n      \"supertitle\": \"\\u00c4gypten\", \n      \"teaser_title\": \"Polizei
+        setzt Tr\\u00e4nengas gegen Mursi-Gegner ein\"\n    }, \n    {\n      \"subtitle\":
+        \"Glaubw\\u00fcrdigkeit ist nicht die St\\u00e4rke des Shooters \\\"Far Cry
+        3\\\". Die Natur ist daf\\u00fcr der heimliche Star des Spiels. Immer wieder
+        sorgt sie f\\u00fcr \\u00fcberraschende Wendungen.\", \n      \"uuid\": \"66S8uc28vZfZ1rDV9vH9yI\",
+        \n      \"title\": \"Der Krieger in der Mitte der Nahrungskette\", \n      \"href\":
+        \"http://www.zeit.de/digital/games/2012-11/rezension-far-cry-3\", \n      \"release_date\":
+        \"2012-11-26T16:46:59.46Z\", \n      \"uri\": \"http://api.zeit.de/content/66S8uc28vZfZ1rDV9vH9yI\",
+        \n      \"supertitle\": \"Far Cry 3\", \n      \"teaser_title\": \"Der Krieger
+        in der Mitte der Nahrungskette\"\n    }, \n    {\n      \"subtitle\": \"Aino
+        Laberenz hat die Autobiographie ihres verstorbenen Mannes Christoph Schlingensief
+        herausgebracht. Im Interview spricht sie \\u00fcber Schlingensiefs Mut und
+        seine \\u00c4ngste.\", \n      \"uuid\": \"4H0ITJhJ8I15zrd9jMxoex\", \n      \"title\":
+        \"\\\"Christoph wollte sein Leben lang einfach ernst genommen werden\\\"\",
+        \n      \"href\": \"http://www.zeit.de/kultur/literatur/2012-11/aino-laberenz-schlingensief-ich-weiss-ich-wars\",
+        \n      \"release_date\": \"2012-11-26T16:09:43.34Z\", \n      \"uri\": \"http://api.zeit.de/content/4H0ITJhJ8I15zrd9jMxoex\",
+        \n      \"supertitle\": \"Schlingensief-Witwe Aino Laberenz\", \n      \"teaser_title\":
+        \"\\\"Christoph wollte sein Leben lang einfach ernst genommen werden\\\"\"\n
+        \   }, \n    {\n      \"subtitle\": \"Ein Autor schreibt \\u00fcber seine
+        Traumfrau \\u2013 da steht sie vor ihm. \\\"Ruby Sparks\\\" spielt munter
+        durch, was wir anrichten, wenn wir unsere Liebsten wie Romanfiguren behandeln.\",
+        \n      \"uuid\": \"1koMOjdkgVIbjkvfVdVFTT\", \n      \"title\": \"Zahm wie
+        eine M\\u00e4nnerfantasie\", \n      \"href\": \"http://www.zeit.de/kultur/film/2012-11/film-ruby-sparks\",
+        \n      \"release_date\": \"2012-11-26T16:02:44.658Z\", \n      \"uri\": \"http://api.zeit.de/content/1koMOjdkgVIbjkvfVdVFTT\",
+        \n      \"supertitle\": \"Kom\\u00f6die \\\"Ruby Sparks\\\"\", \n      \"teaser_title\":
+        \"Zahm wie eine M\\u00e4nnerfantasie\"\n    }, \n    {\n      \"subtitle\":
+        \"Wie finden Firmen in strukturschwachen Regionen neues Personal? Ein Unternehmen
+        aus Schleswig-Holstein geht ungew\\u00f6hnliche Wege und kooperiert mit dem
+        Wacken-Festival.\", \n      \"uuid\": \"31OdeU6OTgd2ufJrGa7ToL\", \n      \"title\":
+        \"Stahlfirma lockt Bewerber mit Tickets f\\u00fcr Heavy-Metal-Festival\",
+        \n      \"href\": \"http://www.zeit.de/karriere/bewerbung/2012-11/stellenanzeige-heavy-metal\",
+        \n      \"release_date\": \"2012-11-26T15:55:30.132Z\", \n      \"uri\": \"http://api.zeit.de/content/31OdeU6OTgd2ufJrGa7ToL\",
+        \n      \"supertitle\": \"Fachkr\\u00e4ftemangel\", \n      \"teaser_title\":
+        \"Stahlfirma lockt Bewerber mit Tickets f\\u00fcr Heavy-Metal-Festival\"\n
+        \   }\n  ], \n  \"uri\": \"http://api.zeit.de/product/zede\", \n  \"value\":
+        \"ZEIT ONLINE\", \n  \"limit\": 10, \n  \"offset\": 0, \n  \"found\": 38517\n}"
+    http_version: '1.1'
+  recorded_at: Tue, 27 Nov 2012 20:10:13 GMT
+recorded_with: VCR 2.3.0

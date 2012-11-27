@@ -1,4 +1,5 @@
 require 'faraday'
+require 'faraday_middleware'
 
 require 'zeit/version'
 require 'zeit/resources/base'

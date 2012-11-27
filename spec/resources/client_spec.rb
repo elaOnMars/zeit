@@ -11,8 +11,8 @@ describe Zeit::Resources::Client, :vcr do
         it_behaves_like 'a successful response'
 
         it 'should return information about the api usage of the current account' do
-         parsed_json.has_key? 'requests'
-         parsed_json.has_key? 'tier'
+         json.has_key? 'requests'
+         json.has_key? 'tier'
         end
       end
 

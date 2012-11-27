@@ -21,27 +21,49 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Sun, 25 Nov 2012 01:25:31 GMT
+      - Tue, 27 Nov 2012 20:10:05 GMT
       server:
       - Apache/2.2.22 (Ubuntu)
       cache-control:
       - max-age=1
       content-length:
-      - '7779'
+      - '8057'
       access-control-allow-origin:
       - ! '*'
       access-control-allow-headers:
       - x-authorization
-      connection:
-      - close
       content-type:
       - application/json
+      connection:
+      - close
     body:
       encoding: US-ASCII
       string: ! "{\n  \"parent\": \"http://api.zeit.de/department/digital\", \n  \"matches\":
-        [\n    {\n      \"subtitle\": \"400 Millionen Nutzer hat Google Plus nun.
-        Ein Facebook-Ersatz ist es zwar nicht geworden. Aber in Googles Strategie
-        spielt das Netzwerk sowieso eine andere Rolle.\", \n      \"uuid\": \"4JiiZY8lF6xFu2WLS55UFh\",
+        [\n    {\n      \"subtitle\": \"Die Fernmeldeunion ITU h\\u00e4lt Proteste
+        gegen ihre geplanten Beschl\\u00fcsse f\\u00fcr m\\u00f6glich. Eine Gegenkampagne
+        soll das verhindern und Kritik an ihren Pl\\u00e4nen abschw\\u00e4chen.\",
+        \n      \"uuid\": \"gpmSXUgSb4EHQ8IYAPQBP\", \n      \"title\": \"Fernmeldeunion
+        f\\u00fcrchtet Proteste wie gegen Acta\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/itu-wcit-dubai-acta\",
+        \n      \"release_date\": \"2012-11-27T15:27:03Z\", \n      \"uri\": \"http://api.zeit.de/content/gpmSXUgSb4EHQ8IYAPQBP\",
+        \n      \"snippet\": \" Internetverwaltung an sich ziehen w\\u00fcrde.\\nDie
+        Regulierung des Netzes wird derzeit von diversen nicht-staatlichen Organisationen
+        wie der <em>Internet</em> Society, Icann oder dem World Wide Web Consortium
+        W3C \\u00fcbernommen\", \n      \"supertitle\": \"WCIT-Treffen in Dubai\",
+        \n      \"teaser_title\": \"Fernmeldeunion f\\u00fcrchtet Proteste wie gegen
+        Acta\"\n    }, \n    {\n      \"subtitle\": \"Die obersten Telefon-Regulierer
+        der ITU wollen nun auch das Internet kontrollieren. Das EU-Parlament warnt:
+        Die Freiheit des Netzes w\\u00e4re damit in Gefahr.\", \n      \"uuid\": \"1oEV07sTXt91XY4KkV7BuK\",
+        \n      \"title\": \"EU f\\u00fcrchtet um Freiheit und Grundrechte im Netz\",
+        \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/itu-dubai-netzfreiheit\",
+        \n      \"release_date\": \"2012-11-23T11:56:21.035Z\", \n      \"uri\": \"http://api.zeit.de/content/1oEV07sTXt91XY4KkV7BuK\",
+        \n      \"snippet\": \" fordert das EU-Parlament den Rat und die EU-Kommission
+        auf, sich bei dem Treffen in Dubai daf\\u00fcr einzusetzen, dass das <em>Internet</em>
+        ein \\u00f6ffentlicher Raum bleibt. Eventuelle \\u00c4nderungen der internationalen\",
+        \n      \"supertitle\": \"ITU-Treffen in Dubai\", \n      \"teaser_title\":
+        \"EU f\\u00fcrchtet um Freiheit und Grundrechte im Netz\"\n    }, \n    {\n
+        \     \"subtitle\": \"400 Millionen Nutzer hat Google Plus nun. Ein Facebook-Ersatz
+        ist es zwar nicht geworden. Aber in Googles Strategie spielt das Netzwerk
+        sowieso eine andere Rolle.\", \n      \"uuid\": \"4JiiZY8lF6xFu2WLS55UFh\",
         \n      \"title\": \"Google Plus vernetzt vor allem Googles Dienste\", \n
         \     \"href\": \"http://www.zeit.de/digital/internet/2012-11/google-plus-bilanz\",
         \n      \"release_date\": \"2012-11-21T16:00:02.106Z\", \n      \"uri\": \"http://api.zeit.de/content/4JiiZY8lF6xFu2WLS55UFh\",
@@ -111,27 +133,9 @@ http_interactions:
         f\\u00fcrchten, dass bald auch regierungskritische Seiten den neuen Regeln
         zum Opfer fallen k\\u00f6nnten. Schon bisher hat die\", \n      \"supertitle\":
         \"Netzsperren\", \n      \"teaser_title\": \"Russlands schwarze Liste\"\n
-        \   }, \n    {\n      \"subtitle\": \"Apple retuschiert B\\u00fccher und Musik
-        in seinen Onlinel\\u00e4den. Angesichts seiner Marktstellung ein Problem.
-        Der d\\u00e4nische Kulturminister will es mit seinen EU-Kollegen bereden.\",
-        \n      \"uuid\": \"5xfkHB7DMextww3SWwHmd8\", \n      \"title\": \"Apple f\\u00fcrchtet
-        nackte \\u00c4pfel\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/apple-zensur-brueste\",
-        \n      \"release_date\": \"2012-11-11T08:32:14.772Z\", \n      \"uri\": \"http://api.zeit.de/content/5xfkHB7DMextww3SWwHmd8\",
-        \n      \"supertitle\": \"Onlinehandel\", \n      \"teaser_title\": \"Apple
-        f\\u00fcrchtet nackte \\u00c4pfel\"\n    }, \n    {\n      \"subtitle\": \"Mitbestimmen
-        geht nicht nur bei der Piratenpartei. Der Landkreis Friesland nutzt ab heute
-        als erste Kommune die Software Liquid Feedback, um B\\u00fcrger zu beteiligen.\",
-        \n      \"uuid\": \"1OSlCJSlGqXWD22HIOAzvl\", \n      \"title\": \"Landkreis
-        Friesland f\\u00fchrt Liquid Feedback ein\", \n      \"href\": \"http://www.zeit.de/digital/internet/2012-11/liquid-feedback-friesland\",
-        \n      \"release_date\": \"2012-11-09T15:21:53.402Z\", \n      \"uri\": \"http://api.zeit.de/content/1OSlCJSlGqXWD22HIOAzvl\",
-        \n      \"snippet\": \", hat niemand ans <em>Internet</em> gedacht\\\", sagt
-        Klug.\\nAllerdings hat der Kreistag zugsichert, die Meinungsbilder der B\\u00fcrger
-        zu beachten und bei Entscheidungen zu ber\\u00fccksichtigen. F\\u00fcr Nitsche
-        war das eine\", \n      \"supertitle\": \"B\\u00fcrgerbeteiligung\", \n      \"teaser_title\":
-        \"Landkreis Friesland f\\u00fchrt Liquid Feedback ein\"\n    }\n  ], \n  \"uri\":
-        \"http://api.zeit.de/department/internet\", \n  \"value\": \"Internet\", \n
-        \ \"href\": \"http://www.zeit.de/digital/internet/index\", \n  \"limit\":
-        10, \n  \"offset\": 0, \n  \"found\": 1219\n}"
+        \   }\n  ], \n  \"uri\": \"http://api.zeit.de/department/internet\", \n  \"value\":
+        \"Internet\", \n  \"href\": \"http://www.zeit.de/digital/internet/index\",
+        \n  \"limit\": 10, \n  \"offset\": 0, \n  \"found\": 1221\n}"
     http_version: '1.1'
-  recorded_at: Sun, 25 Nov 2012 01:25:31 GMT
+  recorded_at: Tue, 27 Nov 2012 20:10:05 GMT
 recorded_with: VCR 2.3.0

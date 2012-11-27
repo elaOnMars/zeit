@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.zeit.de/product?q=%2Aer%2A
+    uri: http://api.zeit.de/series?q=%2Aer%2A
     body:
       encoding: US-ASCII
       string: ''
@@ -18,10 +18,10 @@ http_interactions:
   response:
     status:
       code: 401
-      message: UNAUTHORIZED
+      message: Unauthorized
     headers:
       date:
-      - Sun, 25 Nov 2012 01:25:33 GMT
+      - Tue, 27 Nov 2012 20:09:34 GMT
       server:
       - Apache/2.2.22 (Ubuntu)
       cache-control:
@@ -32,13 +32,13 @@ http_interactions:
       - ! '*'
       access-control-allow-headers:
       - x-authorization
-      connection:
-      - close
       content-type:
       - application/json
+      connection:
+      - close
     body:
       encoding: US-ASCII
       string: ! '{"description": "The provided api key seems to be invalid."}'
     http_version: '1.1'
-  recorded_at: Sun, 25 Nov 2012 01:25:33 GMT
+  recorded_at: Tue, 27 Nov 2012 20:09:34 GMT
 recorded_with: VCR 2.3.0

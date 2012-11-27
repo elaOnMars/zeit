@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/series/ausprobiert
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - felix_von_springer
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      content-length:
+      - '79'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      content-type:
+      - application/json
+      x-pad:
+      - avoid browser bug
+      age:
+      - '2'
+      date:
+      - Tue, 27 Nov 2012 20:09:34 GMT
+      connection:
+      - close
+    body:
+      encoding: US-ASCII
+      string: ! '{"description": "Due to an internal error the request could not be
+        fulfilled."}'
+    http_version: '1.1'
+  recorded_at: Tue, 27 Nov 2012 20:09:36 GMT
+recorded_with: VCR 2.3.0

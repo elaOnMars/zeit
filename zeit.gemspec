@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['roland@moriz.de']
   gem.description   = %q{API client for Zeit.de API}
   gem.summary       = %q{API client for Zeit.de API}
-  gem.homepage      = "http://github.com/rmoriz/zeit"
+  gem.homepage      = 'http://github.com/rmoriz/zeit'
   gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/).select { |file| file !~ /^spec\/vcr/ }
@@ -23,6 +23,7 @@ Gem::Specification.new do |gem|
   end
 
   gem.add_dependency 'faraday'
+  gem.add_dependency 'faraday_middleware'
 
   gem.add_development_dependency 'bundler',     '~> 1.0'
   gem.add_development_dependency 'json',        '~> 1.7.5'

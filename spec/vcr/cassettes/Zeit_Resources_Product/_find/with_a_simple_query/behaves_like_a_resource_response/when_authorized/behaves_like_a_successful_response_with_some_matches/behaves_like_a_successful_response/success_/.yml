@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zeit.de/product?q=ZEIT%2A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-authorization:
+      - working
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 27 Nov 2012 20:10:11 GMT
+      server:
+      - Apache/2.2.22 (Ubuntu)
+      cache-control:
+      - max-age=1
+      content-length:
+      - '1019'
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - x-authorization
+      content-type:
+      - application/json
+      connection:
+      - close
+    body:
+      encoding: US-ASCII
+      string: ! "{\n  \"matches\": [\n    {\n      \"uri\": \"http://api.zeit.de/product/zede\",
+        \n      \"value\": \"ZEIT ONLINE\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/zmlb\",
+        \n      \"value\": \"ZEITmagazin\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/ztcs\",
+        \n      \"value\": \"ZEIT Campus\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/csrg\",
+        \n      \"value\": \"ZEIT CAMPUS Ratgeber\"\n    }, \n    {\n      \"uri\":
+        \"http://api.zeit.de/product/ztwi\", \n      \"value\": \"ZEIT Wissen\"\n
+        \   }, \n    {\n      \"uri\": \"http://api.zeit.de/product/ztgs\", \n      \"value\":
+        \"ZEIT Geschichte\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/zech\",
+        \n      \"value\": \"Zeit Schweiz\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/zeoe\",
+        \n      \"value\": \"Zeit Oesterreich\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/zesa\",
+        \n      \"value\": \"Zeit Sachsen\"\n    }, \n    {\n      \"uri\": \"http://api.zeit.de/product/zsf\",
+        \n      \"value\": \"Zeit Studienf\\u00fchrer\"\n    }\n  ], \n  \"found\":
+        10, \n  \"limit\": 10, \n  \"offset\": 0\n}"
+    http_version: '1.1'
+  recorded_at: Tue, 27 Nov 2012 20:10:11 GMT
+recorded_with: VCR 2.3.0
