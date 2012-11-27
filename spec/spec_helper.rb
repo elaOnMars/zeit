@@ -12,7 +12,7 @@ Dir["./spec/support/**/*.rb"].sort.each {|f| require f}
 
 def authorized_api_client
   key = ENV['ZEIT_API_KEY'] || 'working'
-  Zeit::API.new :api_key => key
+  Zeit::API.new :api_key => key, :debug => true
 end
 
 def unauthorized_api_client
