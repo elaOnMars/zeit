@@ -37,11 +37,11 @@ Or install it yourself as:
     
     # author
     result = zeit.author.find '*Schmidt*'
-    result['matches'].inspect
+    result.body['matches'].inspect
 
     # content
     result = zeit.content.find '*Software*', :limit => 200, :offset => 100
-    result['matches'].inspect
+    result.body['matches'].inspect
     
     # department
     result = zeit.department.find '*internet*'
@@ -59,6 +59,8 @@ Or install it yourself as:
    
     # client
     result = zeit.client.get
+    
+    result.body
     # => {"reset"=>1353785293,
     #  "name"=>"my name",
     #  "quota"=>10000,
